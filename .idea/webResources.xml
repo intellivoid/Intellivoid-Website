@@ -10,6 +10,17 @@
             <path value="file://$PROJECT_DIR$/src/assets/favicon" />
             <path value="file://$PROJECT_DIR$/src/assets/images" />
             <path value="file://$PROJECT_DIR$/src/assets/js" />
+            <path value="file://$PROJECT_DIR$/src/assets/fonts" />
+            <path value="file://$PROJECT_DIR$/src/assets/img" />
+            <path value="file://$PROJECT_DIR$/src/assets/scss/blk-design-system/custom/vendor" />
+            <path value="file://$PROJECT_DIR$/src/assets/scss/blk-design-system" />
+            <path value="file://$PROJECT_DIR$/src/assets/scss/blk-design-system/bootstrap" />
+            <path value="file://$PROJECT_DIR$/src/assets/scss/blk-design-system/custom" />
+            <path value="file://$PROJECT_DIR$/src/assets/scss" />
+            <path value="file://$PROJECT_DIR$/src/assets/scss/blk-design-system/custom/cards" />
+            <path value="file://$PROJECT_DIR$/src/assets/scss/blk-design-system/custom/mixins" />
+            <path value="file://$PROJECT_DIR$/src/assets/scss/blk-design-system/custom/sections" />
+            <path value="file://$PROJECT_DIR$/src/assets/scss/blk-design-system/custom/utilities" />
           </resourceRoots>
         </entryData>
       </entry>
