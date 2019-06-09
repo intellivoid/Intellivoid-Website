@@ -52,10 +52,11 @@
                 </div>
             </div>
             <section class="section section-lg section-safe">
+                <img src="../assets/img/path4.png" class="path">
                 <div class="container">
                     <div class="row row-grid justify-content-between">
                         <div class="col-md-5">
-                            <img src="/assets/img/chester-wade.jpg" alt="OpenBlu VPN" class="img-fluid floating">
+                            <img src="/assets/img/openblu.jpg" alt="OpenBlu VPN" class="img-fluid floating">
                             <div class="card card-stats bg-danger">
                                 <div class="card-body">
                                     <div class="justify-content-center">
@@ -135,7 +136,29 @@
                 </div>
             </section>
 
+            <section class="section section-lg">
+                <section class="section">
+                    <div class="container">
+                        <div class="row row-grid justify-content-between">
 
+                            <div class="col-md-6">
+                                <div class="pl-md-5">
+                                    <h1>Netlenium Framework</h1>
+                                    <p>A cross platform and cloud based browser automation framework, designed to create tests, automate complicated tasks or to monitor data without messing with complicated javascript or web components</p>
+                                    <br/>
+                                    <p>This is a ongoing project, more information will be released in the future</p>
+                                    <br/>
+                                    <button class="btn btn-primary btn-simple">Coming Soon</button>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <img src="/assets/img/netlenium.jpg" alt="OpenBlu VPN" class="img-fluid floating">
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+            </section>
 
             <?PHP HTML::importSection('landing_footer'); ?>
         </div>
