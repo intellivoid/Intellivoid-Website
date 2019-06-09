@@ -51,6 +51,92 @@
                     </div>
                 </div>
             </div>
+            <section class="section section-lg section-safe">
+                <div class="container">
+                    <div class="row row-grid justify-content-between">
+                        <div class="col-md-5">
+                            <img src="/assets/img/chester-wade.jpg" alt="OpenBlu VPN" class="img-fluid floating">
+                            <div class="card card-stats bg-danger">
+                                <div class="card-body">
+                                    <div class="justify-content-center">
+                                        <div class="numbers">
+                                            <p class="card-title">200+</p>
+                                            <p class="card-category text-white">Servers</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card card-stats bg-info">
+                                <div class="card-body">
+                                    <div class="justify-content-center">
+                                        <div class="numbers">
+                                            <p class="card-title">5K+</p>
+                                            <p class="card-category text-white">Connected Users</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card card-stats bg-default">
+                                <div class="card-body">
+                                    <div class="justify-content-center">
+                                        <div class="numbers">
+                                            <p class="card-title">Free</p>
+                                            <p class="card-category text-white">Access</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="px-md-5">
+                                <hr class="line-success">
+                                <h3>OpenBlu VPN</h3>
+                                <p>A robust and free VPN Service powered by volunteers with well documented API Access</p>
+                                <ul class="list-unstyled mt-5">
+                                    <li class="py-2">
+                                        <div class="d-flex align-items-center">
+                                            <div class="icon icon-success mb-2">
+                                                <i class="fa fa-lock"></i>
+                                            </div>
+                                            <div class="ml-3">
+                                                <h6>Standard Encryption on all VPN Servers</h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="py-2">
+                                        <div class="d-flex align-items-center">
+                                            <div class="icon icon-success mb-2">
+                                                <i class="fa fa-cog"></i>
+                                            </div>
+                                            <div class="ml-3">
+                                                <h6>Well documented Configuration Files</h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="py-2">
+                                        <div class="d-flex align-items-center">
+                                            <div class="icon icon-success mb-2">
+                                                <i class="fa fa-code"></i>
+                                            </div>
+                                            <div class="ml-3">
+                                                <h6>Try API before purchasing access</h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="py-2">
+                                        <div class="d-flex align-items-center">
+                                            <button class="btn btn-success btn-simple" onclick="window.open('https://openblu.intellivoid.info/');">Open Web Application</button>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
             <?PHP HTML::importSection('landing_footer'); ?>
         </div>
         <?PHP HTML::importSection('landing_javascript'); ?>
