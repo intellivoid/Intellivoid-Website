@@ -152,7 +152,7 @@
                                 </div>
                             </div>
                             <div class="col-md-5">
-                                <img src="/assets/img/netlenium.jpg" alt="OpenBlu VPN" class="img-fluid floating">
+                                <img src="/assets/img/netlenium.jpg" alt="Netlenium Framework" class="img-fluid floating">
                             </div>
 
                         </div>

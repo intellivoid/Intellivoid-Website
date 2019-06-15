@@ -16,6 +16,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/resources/markdown/example" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/resources/libraries/Example/Classes" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/resources/pages/index" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/resources/pages/support" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/resources/pages/contact" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
