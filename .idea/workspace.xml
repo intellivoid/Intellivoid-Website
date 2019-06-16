@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d34366b-96f4-458a-8067-1d49aff115c2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/resources/languages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/languages/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/pages/contact/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/pages/contact/contents.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/shared/recaptcha.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/shared/scripts/recaptcha.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/shared/web_config.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +20,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/languages/en.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="34" column="58" lean-forward="true" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
+            <state relative-caret-position="-456">
+              <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/shared/recaptcha.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" column="59" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/resources/shared/scripts/recaptcha.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1080">
+              <caret line="45" column="33" lean-forward="true" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -72,14 +91,16 @@
         <option value="$PROJECT_DIR$/src/resources/pages/index/contents.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/contact/contents.php" />
         <option value="$PROJECT_DIR$/src/resources/languages/en.json" />
+        <option value="$PROJECT_DIR$/src/resources/shared/recaptcha.json" />
+        <option value="$PROJECT_DIR$/src/resources/shared/scripts/recaptcha.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-132" />
-    <option name="y" value="106" />
-    <option name="width" value="1366" />
-    <option name="height" value="740" />
+    <option name="x" value="225" />
+    <option name="y" value="101" />
+    <option name="width" value="1130" />
+    <option name="height" value="624" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -161,6 +182,14 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="shared" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Intellivoid Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Intellivoid-Website" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -171,7 +200,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources/pages/contact" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources/shared/scripts" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -181,6 +210,7 @@
       <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\resources\shared\scripts" />
       <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\resources\pages\contact" />
       <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\assets\js" />
       <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\assets" />
@@ -213,12 +243,12 @@
       <workItem from="1560051552460" duration="599000" />
       <workItem from="1560499969229" duration="13000" />
       <workItem from="1560547533019" duration="31000" />
-      <workItem from="1560631684727" duration="10956000" />
+      <workItem from="1560631684727" duration="11371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20847000" />
+    <option name="totallyTimeSpent" value="21262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -262,9 +292,6 @@
           <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/shared/web_config.json">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/configuration.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -327,13 +354,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/contact/contents.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/pages/index/contents.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
@@ -341,10 +361,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/shared/web_config.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/languages/en.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="34" column="58" lean-forward="true" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
+        <state relative-caret-position="-456">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/contact/contents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/shared/recaptcha.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="59" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/shared/scripts/recaptcha.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="45" column="33" lean-forward="true" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
         </state>
       </provider>
     </entry>
