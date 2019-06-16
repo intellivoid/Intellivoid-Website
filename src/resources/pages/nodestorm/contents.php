@@ -7,7 +7,7 @@
 <html lang="<?PHP HTML::print(APP_LANGUAGE_ISO_639); ?>">
     <head>
         <?PHP HTML::importSection('landing_headers'); ?>
-        <title>Intellivoid - Mateo De la Hoz</title>
+        <title>Intellivoid - NodeStorm</title>
     </head>
 
     <body class="profile-page">
@@ -19,9 +19,10 @@
                 <div class="container align-items-center">
                     <div class="row">
                         <div class="col-lg-6 col-md-6">
-                            <h1>Mateo De la Hoz</h1>
+                            <h1>NodeStorm</h1>
+                            <br/>
                             <div class="btn-wrapper profile pt-3">
-                                <a target="_blank" href="https://github.com/mdelahozl" class="btn btn-icon btn-github btn-round">
+                                <a target="_blank" href="https://github.com/qlg1" class="btn btn-icon btn-github btn-round">
                                     <i class="fab fa-github-alt"></i>
                                 </a>
                             </div>
@@ -29,11 +30,8 @@
                         <div class="col-lg-4 col-md-6 ml-auto mr-auto pt-5">
                             <div class="card card-coin card-plain">
                                 <div class="card-header">
-                                    <img src="/assets/img/devs/mdelahozl.jpg" alt="avatar" class="img-center img-fluid rounded-circle">
-                                    <h4 class="title">Project licensing & compliance manager security auditor</h4>
-                                </div>
-                                <div class="card-body text-center">
-                                    <button class="btn btn-primary" onclick="location.href='mailto:mateo.delahoz@funade.edu.co';">Contact</button>
+                                    <img src="/assets/img/devs/nodestorm.jpg" alt="avatar" class="img-center img-fluid rounded-circle">
+                                    <h4 class="title">Programmer / Greek Translator</h4>
                                 </div>
                             </div>
                         </div>

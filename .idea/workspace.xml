@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d34366b-96f4-458a-8067-1d49aff115c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/resources/pages/mdelahozl/contents.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pages/nodestorm/contents.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/pages/mdelahozl/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/pages/mdelahozl/contents.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,11 +29,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/pages/mdelahozl/contents.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="24" column="85" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
+            <state relative-caret-position="209">
+              <caret line="35" column="77" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/resources/pages/nodestorm/contents.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="24" column="80" selection-start-line="24" selection-start-column="80" selection-end-line="24" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -94,6 +104,7 @@
         <option value="$PROJECT_DIR$/src/resources/markdown/dev_antiengineer/en.md" />
         <option value="$PROJECT_DIR$/src/resources/pages/antiengineer/contents.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/mdelahozl/contents.php" />
+        <option value="$PROJECT_DIR$/src/resources/pages/nodestorm/contents.php" />
       </list>
     </option>
   </component>
@@ -159,7 +170,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="mdelahozl" type="462c0819:PsiDirectoryNode" />
+              <item name="nodestorm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Intellivoid Website" type="b2602c69:ProjectViewProjectNode" />
@@ -225,12 +236,12 @@
       <workItem from="1560547533019" duration="31000" />
       <workItem from="1560631684727" duration="29274000" />
       <workItem from="1560722214286" duration="56000" />
-      <workItem from="1560724956408" duration="2320000" />
+      <workItem from="1560724956408" duration="2591000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41541000" />
+    <option name="totallyTimeSpent" value="41812000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -503,8 +514,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/pages/mdelahozl/contents.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="24" column="85" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
+        <state relative-caret-position="209">
+          <caret line="35" column="77" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/nodestorm/contents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="24" column="80" selection-start-line="24" selection-start-column="80" selection-end-line="24" selection-end-column="80" />
         </state>
       </provider>
     </entry>
