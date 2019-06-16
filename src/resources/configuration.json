@@ -1,7 +1,15 @@
 {
     "home_page": "index",
     "primary_language": "en",
-    "libraries": {},
+    "libraries": {
+        "Support": {
+            "directory_name": "Support",
+            "autoloader": "Support.php",
+            "check_class_exists": true,
+            "namespace": "Support",
+            "main_class": "Support"
+        }
+    },
     "runtime_scripts": {
         "initialize": [],
         "on_page_load": [],
