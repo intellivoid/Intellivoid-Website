@@ -1,0 +1,1 @@
+Software developer and founder of [dav](https://dav-apps.tech)
