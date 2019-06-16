@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d34366b-96f4-458a-8067-1d49aff115c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/resources/markdown/dev_antiengineer/en.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/pages/antiengineer/contents.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/pages/mdelahozl/contents.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/pages/antiengineer/contents.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            <state relative-caret-position="264">
+              <caret line="47" column="59" lean-forward="true" selection-start-line="47" selection-start-column="59" selection-end-line="47" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/resources/pages/mdelahozl/contents.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="24" column="85" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -85,6 +93,7 @@
         <option value="$PROJECT_DIR$/src/resources/pages/tzu/contents.php" />
         <option value="$PROJECT_DIR$/src/resources/markdown/dev_antiengineer/en.md" />
         <option value="$PROJECT_DIR$/src/resources/pages/antiengineer/contents.php" />
+        <option value="$PROJECT_DIR$/src/resources/pages/mdelahozl/contents.php" />
       </list>
     </option>
   </component>
@@ -142,14 +151,6 @@
               <item name="Intellivoid-Website" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="markdown" type="462c0819:PsiDirectoryNode" />
-              <item name="dev_antiengineer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Intellivoid Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Intellivoid-Website" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -158,39 +159,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="antiengineer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Intellivoid Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Intellivoid-Website" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="dav" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Intellivoid Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Intellivoid-Website" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="netkas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Intellivoid Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Intellivoid-Website" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="privacy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Intellivoid Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Intellivoid-Website" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="tzu" type="462c0819:PsiDirectoryNode" />
+              <item name="mdelahozl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Intellivoid Website" type="b2602c69:ProjectViewProjectNode" />
@@ -209,7 +178,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources/markdown" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources/pages" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -217,8 +186,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\resources\markdown" />
       <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\resources\pages" />
+      <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\resources\markdown" />
       <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\resources\pages\dav" />
       <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\resources\languages" />
       <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\resources\pages\contact\scripts" />
@@ -256,12 +225,12 @@
       <workItem from="1560547533019" duration="31000" />
       <workItem from="1560631684727" duration="29274000" />
       <workItem from="1560722214286" duration="56000" />
-      <workItem from="1560724956408" duration="1546000" />
+      <workItem from="1560724956408" duration="2320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40767000" />
+    <option name="totallyTimeSpent" value="41541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -527,8 +496,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/pages/antiengineer/contents.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+        <state relative-caret-position="264">
+          <caret line="47" column="59" lean-forward="true" selection-start-line="47" selection-start-column="59" selection-end-line="47" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/mdelahozl/contents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="24" column="85" selection-start-line="24" selection-start-column="85" selection-end-line="24" selection-end-column="85" />
         </state>
       </provider>
     </entry>
