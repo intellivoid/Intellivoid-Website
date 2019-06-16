@@ -4,6 +4,7 @@
     use DynamicalWeb\HTML;
 
     HTML::importScript('recaptcha');
+    HTML::importScript('alert');
 ?>
 <!doctype html>
 <html lang="<?PHP HTML::print(APP_LANGUAGE_ISO_639); ?>">
@@ -21,7 +22,6 @@
 
                 <div class="content">
                     <div class="container">
-
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="card card-plain">
