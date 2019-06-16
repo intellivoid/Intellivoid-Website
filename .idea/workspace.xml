@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d34366b-96f4-458a-8067-1d49aff115c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Netkas.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/languages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/languages/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/languages/es.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/languages/zh.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/sections/landing_footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/sections/landing_footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/sections/landing_navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/sections/landing_navbar.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,26 +18,43 @@
     <favorites_list name="Intellivoid Website" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/languages/en.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="25" column="41" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/resources/sections/landing_navbar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="19" column="246" selection-start-line="19" selection-start-column="246" selection-end-line="19" selection-end-column="246" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.36838123">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/resources/languages/en.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="425">
+                  <caret line="33" column="34" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="34" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/resources/sections/landing_footer.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="360">
+                  <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/resources/sections/landing_footer.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="192">
+                  <caret line="20" column="93" selection-start-line="20" selection-start-column="93" selection-end-line="20" selection-end-column="93" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -65,9 +77,9 @@
         <option value="$PROJECT_DIR$/src/resources/sections/landing_headers.php" />
         <option value="$PROJECT_DIR$/src/assets/css/blk-design-system.css" />
         <option value="$PROJECT_DIR$/src/resources/pages/contact/contents.php" />
-        <option value="$PROJECT_DIR$/src/resources/sections/landing_footer.php" />
-        <option value="$PROJECT_DIR$/src/resources/languages/en.json" />
         <option value="$PROJECT_DIR$/src/resources/sections/landing_navbar.php" />
+        <option value="$PROJECT_DIR$/src/resources/languages/en.json" />
+        <option value="$PROJECT_DIR$/src/resources/sections/landing_footer.php" />
       </list>
     </option>
   </component>
@@ -201,12 +213,12 @@
       <workItem from="1560051552460" duration="599000" />
       <workItem from="1560499969229" duration="13000" />
       <workItem from="1560547533019" duration="31000" />
-      <workItem from="1560631684727" duration="8424000" />
+      <workItem from="1560631684727" duration="8865000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18315000" />
+    <option name="totallyTimeSpent" value="18756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -315,24 +327,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/sections/landing_footer.php">
+    <entry file="file://$PROJECT_DIR$/src/resources/sections/landing_navbar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="39" column="61" selection-start-line="39" selection-start-column="61" selection-end-line="39" selection-end-column="61" />
+        <state relative-caret-position="17">
+          <caret line="19" column="246" selection-start-line="19" selection-start-column="246" selection-end-line="19" selection-end-column="246" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/languages/en.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="25" column="41" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="41" />
+        <state relative-caret-position="425">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/sections/landing_navbar.php">
+    <entry file="file://$PROJECT_DIR$/src/resources/sections/landing_footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="19" column="246" selection-start-line="19" selection-start-column="246" selection-end-line="19" selection-end-column="246" />
+        <state relative-caret-position="192">
+          <caret line="20" column="93" selection-start-line="20" selection-start-column="93" selection-end-line="20" selection-end-column="93" />
         </state>
       </provider>
     </entry>

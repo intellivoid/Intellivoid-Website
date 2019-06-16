@@ -25,8 +25,12 @@
             "NAVBAR_SOCIAL_INSTAGRAM_TOOLTIP": "Follow us on Instagram",
             "NAVBAR_SOCIAL_GITHUB_TOOLTIP": "Find us on Github"
         },
-        "footer": {
-            "FOOTER_TEXT": "DynamicalWeb Version 1.0.0.0 | Written by Zi Xing Narrakas"
+        "landing_footer": {
+            "FOOTER_CONTACT_US": "Contact Us",
+            "FOOTER_PRIVACY_POLICY": "Privacy Policy",
+            "FOOTER_TERMS_OF_SERVICE": "Terms of Service",
+            "FOOTER_COMING_SOON_PLACEHOLDER": "(Coming Soon)",
+            "FOOTER_FOLLOW_US_TITLE": "Follow Us"
         }
     }
 }
