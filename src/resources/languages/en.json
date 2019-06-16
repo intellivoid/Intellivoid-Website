@@ -11,10 +11,19 @@
         }
     },
     "sections": {
-        "navigation": {
-            "NAVBAR_BRAND": "DynamicalWeb",
-            "NAVBAR_LANGUAGE_DROPDOWN": "Language",
-            "NAVBAR_PAGE_HOME": "Home"
+        "landing_navbar": {
+            "NAVBAR_BRAND_TOOLTIP": "Software & Services for Consumers and Businesses",
+            "NAVBAR_TOGGLE_LABEL": "Toggle navigation",
+            "NAVBAR_COMING_SOON_PLACEHOLDER": "(Coming Soon)",
+            "NAVBAR_SERVICES_DROPDOWN": "Services",
+            "NAVBAR_SUPPORT_DROPDOWN": "Support",
+            "NAVBAR_SUPPORT_CONTACT_US": "Contact Us",
+            "NAVBAR_SUPPORT_PRIVACY_POLICY": "Privacy Policy",
+            "NAVBAR_SUPPORT_TERMS_OF_SERVICE": "Terms of Service",
+            "NAVBAR_SOCIAL_TWITTER_TOOLTIP": "Follow us on Twitter",
+            "NAVBAR_SOCIAL_TELEGRAM_TOOLTIP": "Chat with us on Telegram",
+            "NAVBAR_SOCIAL_INSTAGRAM_TOOLTIP": "Follow us on Instagram",
+            "NAVBAR_SOCIAL_GITHUB_TOOLTIP": "Find us on Github"
         },
         "footer": {
             "FOOTER_TEXT": "DynamicalWeb Version 1.0.0.0 | Written by Zi Xing Narrakas"

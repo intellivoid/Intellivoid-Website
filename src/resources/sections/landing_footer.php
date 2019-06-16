@@ -31,24 +31,13 @@
             <div class="col-md-3">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a href="https://openblu.intellivoid.info/" class="nav-link">
-                            OpenBlu VPN
-                        </a>
+                        <a href="https://openblu.intellivoid.info/" class="nav-link">OpenBlu VPN</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            Netlenium (Coming Soon)
-                        </a>
+                        <a href="#" class="nav-link">Netlenium (Coming Soon)</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            Intellivoid Accounts (Coming Soon)
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            Open Analytics (Coming Soon)
-                        </a>
+                        <a href="#" class="nav-link">Accounts (Coming Soon)</a>
                     </li>
                 </ul>
             </div>
