@@ -35,7 +35,14 @@
             "FEATURE_1_TITLE": "We will get back to you!",
             "FEATURE_1_DESC": "Contacting us is fast and painless, no unnecessary steps or information.",
             "FEATURE_2_TITLE": "Have a question?",
-            "FEATURE_2_DESC": "We will answer them! No generic or confusing responses. We don't use any AI behind our support team"
+            "FEATURE_2_DESC": "We will answer them! No generic or confusing responses. We don't use any AI behind our support team",
+            "CALLBACK_100": "There was an issue with your request, please make sure your browser is up to date",
+            "CALLBACK_101": "The given Email address is invalid",
+            "CALLBACK_102": "The given Subject is invalid, it must be greater than 5 characters but no greater than 130",
+            "CALLBACK_103": "The given Message is invalid, it must be greater than 20 characters but no greater than 2500",
+            "CALLBACK_104": "There was an unknown error while trying to process your report, please wait till Intellivoid resolves this issue",
+            "CALLBACK_105": "Your report has been submitted, we will reach you shortly. Your ticket number is #%s",
+            "CALLBACK_106": "The captcha was solved incorrectly"
         },
         "privacy": {
             "PAGE_TITLE": "Intellivoid - Privacy Policy",

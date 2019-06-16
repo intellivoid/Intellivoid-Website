@@ -4,6 +4,7 @@
     use DynamicalWeb\HTML;
 
     HTML::importScript('recaptcha');
+    HTML::importScript('submit_report');
     HTML::importScript('alert');
 ?>
 <!doctype html>
@@ -22,6 +23,7 @@
 
                 <div class="content">
                     <div class="container">
+                        <?PHP HTML::importScript('callbacks'); ?>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="card card-plain">
@@ -29,7 +31,7 @@
                                         <h1 class="profile-title text-left"><?PHP HTML::print(TEXT_HEADER_TITLE); ?></h1>
                                     </div>
                                     <div class="card-body">
-                                        <form>
+                                        <form action="/contact" method="POST">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="form-group">
