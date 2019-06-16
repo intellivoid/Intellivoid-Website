@@ -8,7 +8,7 @@
 <html lang="<?PHP HTML::print(APP_LANGUAGE_ISO_639); ?>">
     <head>
         <?PHP HTML::importSection('landing_headers'); ?>
-        <title>Landing Page</title>
+        <title><?PHP HTML::print(TEXT_PAGE_TITLE); ?></title>
     </head>
 
     <body class="index-page">
@@ -24,7 +24,7 @@
                             <div class="col-md-6">
                                 <div class="card card-plain">
                                     <div class="card-header">
-                                        <h1 class="profile-title text-left">Contact Us</h1>
+                                        <h1 class="profile-title text-left"><?PHP HTML::print(TEXT_HEADER_TITLE); ?></h1>
                                     </div>
                                     <div class="card-body">
                                         <form>
@@ -32,7 +32,7 @@
                                                 <div class="col-md-6">
                                                     <div class="form-group">
                                                         <label class="text-primary" for="email">
-                                                            <i class="fa fa-envelope"></i> Email address
+                                                            <i class="fa fa-envelope"></i> <?PHP HTML::print(TEXT_LABEL_EMAIL_ADDRESS); ?>
                                                         </label>
                                                         <input name="email" id="email" type="email" class="form-control" placeholder="affoe_x_node@email.com">
                                                     </div>
@@ -40,9 +40,9 @@
                                                 <div class="col-md-6">
                                                     <div class="form-group">
                                                         <label class="text-primary" for="subject">
-                                                            <i class="fa fa-question"></i> Subject
+                                                            <i class="fa fa-question"></i> <?PHP HTML::print(TEXT_LABEL_SUBJECT); ?>
                                                         </label>
-                                                        <input name="subject" id="subject" type="text" class="form-control" placeholder="Subject">
+                                                        <input name="subject" id="subject" type="text" class="form-control" placeholder="<?PHP HTML::print(TEXT_SUBJECT_PLACEHOLDER); ?>">
                                                     </div>
                                                 </div>
                                             </div>
@@ -50,13 +50,13 @@
                                                 <div class="col-md-12">
                                                     <div class="form-group">
                                                         <label class="text-primary" for="message">
-                                                            <i class="fa fa-pencil-alt"></i> Message
+                                                            <i class="fa fa-pencil-alt"></i> <?PHP HTML::print(TEXT_LABEL_MESSAGE); ?>
                                                         </label>
-                                                        <textarea name="message" id="message" type="text" rows="5" class="form-control"></textarea>
+                                                        <textarea name="message" id="message" type="text" rows="5" class="form-control" placeholder="<?PHP HTML::print(TEXT_MESSAGE_PLACEHOLDER); ?>"></textarea>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <input type="submit" class="btn btn-primary btn-round float-right" value="Submit">
+                                            <input type="submit" class="btn btn-primary btn-round float-right" value="<?PHP HTML::print(TEXT_SUBMIT_BUTTON); ?>">
                                         </form>
                                     </div>
                                 </div>
@@ -67,10 +67,8 @@
                                         <i class="fa fa-bolt"></i>
                                     </div>
                                     <div class="description">
-                                        <h4 class="info-title">We will get back to you!</h4>
-                                        <p>
-                                            Contacting us is fast and painless, no unnecessary steps or information.
-                                        </p>
+                                        <h4 class="info-title"><?PHP HTML::print(TEXT_FEATURE_1_TITLE); ?></h4>
+                                        <p><?PHP HTML::print(TEXT_FEATURE_1_DESC); ?></p>
                                     </div>
                                 </div>
                                 <div class="info info-horizontal">
@@ -78,8 +76,8 @@
                                         <i class="fa fa-question"></i>
                                     </div>
                                     <div class="description">
-                                        <h4 class="info-title">Have a question?</h4>
-                                        <p>We will answer them! No generic or confusing responses. We don't use any AI behind our support team</p>
+                                        <h4 class="info-title"><?PHP HTML::print(TEXT_FEATURE_2_TITLE); ?></h4>
+                                        <p><?PHP HTML::print(TEXT_FEATURE_2_DESC); ?></p>
                                     </div>
                                 </div>
                             </div>
