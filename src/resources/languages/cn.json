@@ -55,18 +55,18 @@
     },
     "sections": {
         "landing_navbar": {
-            "NAVBAR_BRAND_TOOLTIP": "Software & Services for Consumers and Businesses",
-            "NAVBAR_TOGGLE_LABEL": "Toggle navigation",
-            "NAVBAR_COMING_SOON_PLACEHOLDER": "(Coming Soon)",
-            "NAVBAR_SERVICES_DROPDOWN": "Services",
-            "NAVBAR_SUPPORT_DROPDOWN": "Support",
-            "NAVBAR_SUPPORT_CONTACT_US": "Contact Us",
-            "NAVBAR_SUPPORT_PRIVACY_POLICY": "Privacy Policy",
-            "NAVBAR_SUPPORT_TERMS_OF_SERVICE": "Terms of Service",
-            "NAVBAR_SOCIAL_TWITTER_TOOLTIP": "Follow us on Twitter",
-            "NAVBAR_SOCIAL_TELEGRAM_TOOLTIP": "Chat with us on Telegram",
-            "NAVBAR_SOCIAL_INSTAGRAM_TOOLTIP": "Follow us on Instagram",
-            "NAVBAR_SOCIAL_GITHUB_TOOLTIP": "Find us on Github"
+            "NAVBAR_BRAND_TOOLTIP": "面向消费者和企业的软件和服务",
+            "NAVBAR_TOGGLE_LABEL": "切换导航",
+            "NAVBAR_COMING_SOON_PLACEHOLDER": "（快来了）",
+            "NAVBAR_SERVICES_DROPDOWN": "服务",
+            "NAVBAR_SUPPORT_DROPDOWN": "支持",
+            "NAVBAR_SUPPORT_CONTACT_US": "联系我们",
+            "NAVBAR_SUPPORT_PRIVACY_POLICY": "隐私政策",
+            "NAVBAR_SUPPORT_TERMS_OF_SERVICE": "服务条款",
+            "NAVBAR_SOCIAL_TWITTER_TOOLTIP": "在Twitter上关注我们",
+            "NAVBAR_SOCIAL_TELEGRAM_TOOLTIP": "在Telegram上与我们聊天",
+            "NAVBAR_SOCIAL_INSTAGRAM_TOOLTIP": "在Instagram上关注我们",
+            "NAVBAR_SOCIAL_GITHUB_TOOLTIP": "在Github上找到我们"
         },
         "landing_footer": {
             "FOOTER_CONTACT_US": "Contact Us",
