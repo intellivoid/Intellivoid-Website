@@ -34,7 +34,7 @@
                         <div class="col-lg-4 col-md-6 ml-auto mr-auto">
                             <div class="card card-coin card-plain">
                                 <div class="card-header">
-                                    <img src="/assets/img/devs/dav2070.jpg" class="img-center img-fluid rounded-circle">
+                                    <img src="/assets/img/devs/dav2070.jpg" alt="avatar" class="img-center img-fluid rounded-circle">
                                     <h4 class="title">German Translator</h4>
                                 </div>
                             </div>
