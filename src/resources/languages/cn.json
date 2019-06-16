@@ -69,11 +69,11 @@
             "NAVBAR_SOCIAL_GITHUB_TOOLTIP": "在Github上找到我们"
         },
         "landing_footer": {
-            "FOOTER_CONTACT_US": "Contact Us",
-            "FOOTER_PRIVACY_POLICY": "Privacy Policy",
-            "FOOTER_TERMS_OF_SERVICE": "Terms of Service",
-            "FOOTER_COMING_SOON_PLACEHOLDER": "(Coming Soon)",
-            "FOOTER_FOLLOW_US_TITLE": "Follow Us"
+            "FOOTER_CONTACT_US": "联系我们",
+            "FOOTER_PRIVACY_POLICY": "隐私政策",
+            "FOOTER_TERMS_OF_SERVICE": "服务条款",
+            "FOOTER_COMING_SOON_PLACEHOLDER": "（快来了）",
+            "FOOTER_FOLLOW_US_TITLE": "跟着我们"
         }
     }
 }
