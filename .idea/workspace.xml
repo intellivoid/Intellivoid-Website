@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d34366b-96f4-458a-8067-1d49aff115c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/resources/pages/nodestorm/contents.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/shared/analytics.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/shared/scripts/google_analytics.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/pages/mdelahozl/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/pages/mdelahozl/contents.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/sections/landing_headers.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/sections/landing_headers.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,12 +20,12 @@
     <favorites_list name="Intellivoid Website" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/pages/antiengineer/contents.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="47" column="59" lean-forward="true" selection-start-line="47" selection-start-column="59" selection-end-line="47" selection-end-column="59" />
+            <state relative-caret-position="1128">
+              <caret line="47" column="59" selection-start-line="47" selection-start-column="59" selection-end-line="47" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -32,17 +33,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/pages/mdelahozl/contents.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="840">
               <caret line="35" column="77" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/pages/nodestorm/contents.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="24" column="80" selection-start-line="24" selection-start-column="80" selection-end-line="24" selection-end-column="80" />
+            <state relative-caret-position="96">
+              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/shared/analytics.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/shared/scripts/google_analytics.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/resources/sections/landing_headers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" column="86" selection-start-line="1" selection-start-column="86" selection-end-line="1" selection-end-column="86" />
             </state>
           </provider>
         </entry>
@@ -93,7 +117,6 @@
         <option value="$PROJECT_DIR$/src/resources/pages/contact/scripts/callbacks.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/contact/scripts/submit_report.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/contact/contents.php" />
-        <option value="$PROJECT_DIR$/src/resources/sections/landing_headers.php" />
         <option value="$PROJECT_DIR$/src/resources/sections/landing_navbar.php" />
         <option value="$PROJECT_DIR$/src/resources/languages/cn.json" />
         <option value="$PROJECT_DIR$/src/resources/markdown/dev_dav/en.md" />
@@ -105,6 +128,8 @@
         <option value="$PROJECT_DIR$/src/resources/pages/antiengineer/contents.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/mdelahozl/contents.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/nodestorm/contents.php" />
+        <option value="$PROJECT_DIR$/src/resources/shared/analytics.json" />
+        <option value="$PROJECT_DIR$/src/resources/sections/landing_headers.php" />
       </list>
     </option>
   </component>
@@ -179,6 +204,21 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="sections" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Intellivoid Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Intellivoid-Website" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Intellivoid Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Intellivoid-Website" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -189,23 +229,23 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources/shared/scripts" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\resources\pages" />
-      <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\resources\markdown" />
-      <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\resources\pages\dav" />
-      <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\resources\languages" />
-      <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\resources\pages\contact\scripts" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\assets" />
       <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\resources\shared\scripts" />
+      <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\resources\shared" />
+      <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\resources\pages" />
+      <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\resources\markdown" />
+      <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\resources\pages\dav" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -236,18 +276,19 @@
       <workItem from="1560547533019" duration="31000" />
       <workItem from="1560631684727" duration="29274000" />
       <workItem from="1560722214286" duration="56000" />
-      <workItem from="1560724956408" duration="2591000" />
+      <workItem from="1560724956408" duration="2657000" />
+      <workItem from="1560728536760" duration="452000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41812000" />
+    <option name="totallyTimeSpent" value="42330000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49829933" visible="true" weight="0.26701966" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49829933" visible="true" weight="0.2708018" />
       <window_info id="Structure" order="1" sideWeight="0.5017007" side_tool="true" weight="0.25945538" />
       <window_info id="Favorites" order="2" sideWeight="0.50167227" side_tool="true" weight="0.24962178" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -276,8 +317,8 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/js/blk-design-system.js.map">
-      <provider selected="true" editor-type-id="text-editor" />
       <provider editor-type-id="sourcemapFileViewerProvider" />
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/sections/landing_javascript.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -426,13 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/sections/landing_headers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/sections/landing_navbar.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
@@ -495,6 +529,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/antiengineer/contents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1128">
+          <caret line="47" column="59" selection-start-line="47" selection-start-column="59" selection-end-line="47" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/mdelahozl/contents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="35" column="77" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/markdown/dev_antiengineer/en.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -505,24 +553,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/antiengineer/contents.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="47" column="59" lean-forward="true" selection-start-line="47" selection-start-column="59" selection-end-line="47" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/mdelahozl/contents.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="35" column="77" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/pages/nodestorm/contents.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="24" column="80" selection-start-line="24" selection-start-column="80" selection-end-line="24" selection-end-column="80" />
+        <state relative-caret-position="96">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/shared/analytics.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/shared/scripts/google_analytics.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/sections/landing_headers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="86" selection-start-line="1" selection-start-column="86" selection-end-line="1" selection-end-column="86" />
         </state>
       </provider>
     </entry>
