@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d34366b-96f4-458a-8067-1d49aff115c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/resources/pages/contact/contents.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Intellivoid Website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Intellivoid Website.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/pages/index/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/pages/index/contents.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/sections/landing_headers.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/sections/landing_headers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/sections/landing_navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/sections/landing_navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/blk-design-system.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/blk-design-system.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/pages/contact/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/pages/contact/contents.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,11 +20,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/sections/landing_headers.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
               <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/resources/pages/contact/contents.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="487">
+              <caret line="51" column="82" selection-start-line="51" selection-start-column="75" selection-end-line="51" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/meta.rnc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="53" column="42" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/css/all.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/assets/css/blk-design-system.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="16217" column="18" selection-start-line="16217" selection-start-column="18" selection-end-line="16217" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -37,6 +66,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>navbar</find>
+      <find>register</find>
+      <find>register-page</find>
+      <find>form-control</find>
+      <find>textarea</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -47,12 +80,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/resources/sections/landing_javascript.php" />
         <option value="$PROJECT_DIR$/src/resources/configuration.json" />
-        <option value="$PROJECT_DIR$/src/assets/css/blk-design-system.css" />
         <option value="$PROJECT_DIR$/src/resources/sections/landing_footer.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/index/contents.php" />
-        <option value="$PROJECT_DIR$/src/resources/pages/contact/contents.php" />
         <option value="$PROJECT_DIR$/src/resources/sections/landing_navbar.php" />
         <option value="$PROJECT_DIR$/src/resources/sections/landing_headers.php" />
+        <option value="$PROJECT_DIR$/src/assets/css/blk-design-system.css" />
+        <option value="$PROJECT_DIR$/src/resources/pages/contact/contents.php" />
       </list>
     </option>
   </component>
@@ -83,6 +116,19 @@
               <item name="Intellivoid Website" type="b2602c69:ProjectViewProjectNode" />
               <item name="Intellivoid-Website" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Intellivoid Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Intellivoid-Website" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Intellivoid Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Intellivoid-Website" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -91,6 +137,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Intellivoid Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Intellivoid-Website" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="contact" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Intellivoid Website" type="b2602c69:ProjectViewProjectNode" />
@@ -121,15 +175,15 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\assets" />
+      <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\resources\pages\contact" />
       <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\assets\js" />
       <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\assets" />
       <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\assets\css" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\assets" />
-      <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -158,19 +212,19 @@
       <workItem from="1560051552460" duration="599000" />
       <workItem from="1560499969229" duration="13000" />
       <workItem from="1560547533019" duration="31000" />
-      <workItem from="1560631684727" duration="798000" />
+      <workItem from="1560631684727" duration="7508000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10689000" />
+    <option name="totallyTimeSpent" value="17399000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49832776" visible="true" weight="0.2647504" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49829933" visible="true" weight="0.2647504" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.5017007" side_tool="true" visible="true" weight="0.2647504" />
       <window_info id="Favorites" order="2" sideWeight="0.50167227" side_tool="true" weight="0.24962178" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -218,13 +272,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/css/blk-design-system.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-184">
-          <caret line="13687" column="22" selection-start-line="13687" selection-start-column="22" selection-end-line="13687" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/pages/support/contents.php" />
     <entry file="file://$PROJECT_DIR$/src/resources/pages/contact/content.php" />
     <entry file="file://$PROJECT_DIR$/src/resources/sections/landing_navbar.php">
@@ -248,10 +295,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/contact/contents.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/meta.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1608">
-          <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
+        <state relative-caret-position="175">
+          <caret line="53" column="42" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -259,6 +306,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/blk-design-system/bootstrap/_input-group.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="762">
+          <caret line="42" column="2" lean-forward="true" selection-start-line="42" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-174">
+          <caret line="322" column="16" selection-start-line="322" selection-start-column="16" selection-end-line="322" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/css/all.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/css/blk-design-system.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="16217" column="18" selection-start-line="16217" selection-start-column="18" selection-end-line="16217" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/contact/contents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="51" column="82" selection-start-line="51" selection-start-column="75" selection-end-line="51" selection-end-column="82" />
         </state>
       </provider>
     </entry>
