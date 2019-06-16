@@ -36,6 +36,10 @@
             "FEATURE_1_DESC": "Contacting us is fast and painless, no unnecessary steps or information.",
             "FEATURE_2_TITLE": "Have a question?",
             "FEATURE_2_DESC": "We will answer them! No generic or confusing responses. We don't use any AI behind our support team"
+        },
+        "privacy": {
+            "PAGE_TITLE": "Intellivoid - Privacy Policy",
+            "HEADER_TITLE": "Privacy Policy"
         }
     },
     "sections": {

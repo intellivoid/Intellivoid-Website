@@ -16379,10 +16379,6 @@ textarea.form-control:active {
   font-size: 1rem;
 }
 
-.index-page .page-header {
-  height: 100vh;
-}
-
 .index-page .page-header .container>.content-center.brand .h1-seo,
 .index-page .page-header .container>.content-center.brand h3 {
   color: #ffffff;
@@ -17648,7 +17644,6 @@ hr.line-deafult {
 
 .page-header {
   min-height: 100vh;
-  max-height: 999px;
   padding: 0;
   color: #ffffff;
   position: relative;
