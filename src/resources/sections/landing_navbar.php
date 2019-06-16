@@ -48,6 +48,7 @@
                         <p class="d-lg-none d-xl-none">Github</p>
                     </a>
                 </li>
+
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="services-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <p><?PHP \DynamicalWeb\HTML::print(TEXT_NAVBAR_SERVICES_DROPDOWN); ?></p>
@@ -66,6 +67,19 @@
                         <a class="dropdown-item" href="/contact"><?PHP \DynamicalWeb\HTML::print(TEXT_NAVBAR_SUPPORT_CONTACT_US); ?></a>
                         <a class="dropdown-item" href="/privacy"><?PHP \DynamicalWeb\HTML::print(TEXT_NAVBAR_SUPPORT_PRIVACY_POLICY); ?></a>
                         <a class="dropdown-item" href="/tos"><?PHP \DynamicalWeb\HTML::print(TEXT_NAVBAR_SUPPORT_TERMS_OF_SERVICE); ?></a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="services-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-language"></i>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="services-dropdown">
+                        <a class="dropdown-item" href="/?set_language=en">
+                            <i class="flag-icon flag-icon-gb"></i> English
+                        </a>
+                        <a class="dropdown-item" href="/?set_language=cn">
+                            <i class="flag-icon flag-icon-cn"></i> 中文
+                        </a>
                     </div>
                 </li>
             </ul>

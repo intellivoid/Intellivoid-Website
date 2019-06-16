@@ -18,3 +18,4 @@
 <link href="/assets/css/nucleo-icons.css" rel="stylesheet" />
 <link href="/assets/css/blk-design-system.css?v=1.0.0" rel="stylesheet" />
 <link href="/assets/css/all.css" rel="stylesheet" />
+<link href="/assets/css/flag-icon.css" rel="stylesheet"/>
