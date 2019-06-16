@@ -8,7 +8,7 @@
 <html lang="<?PHP HTML::print(APP_LANGUAGE_ISO_639); ?>">
     <head>
         <?PHP HTML::importSection('landing_headers'); ?>
-        <title>Landing Page</title>
+        <title><?PHP HTML::print(TEXT_PAGE_TITLE); ?></title>
     </head>
 
     <body class="index-page">
@@ -27,8 +27,8 @@
                 <div class="content-center">
                     <div class="row row-grid justify-content-between align-items-center text-left">
                         <div class="col-lg-6 col-md-6">
-                            <h1 class="text-white">We are the solution to complex tasks</h1>
-                            <p class="text-white mb-3">Unlike others, we take our time to create the best and only the best.</p>
+                            <h1 class="text-white"><?PHP HTML::print(TEXT_HEADER_TITLE); ?></h1>
+                            <p class="text-white mb-3"><?PHP HTML::print(TEXT_HEADER_SUB); ?></p>
                             
                             <div class="btn-wrapper">
                                 <div class="button-container">
@@ -52,7 +52,7 @@
                 </div>
             </div>
             <section class="section section-lg section-safe">
-                <img src="../assets/img/path4.png" class="path">
+                <img src="/assets/img/path4.png" class="path">
                 <div class="container">
                     <div class="row row-grid justify-content-between">
                         <div class="col-md-5">
@@ -62,7 +62,7 @@
                                     <div class="justify-content-center">
                                         <div class="numbers">
                                             <p class="card-title">200+</p>
-                                            <p class="card-category text-white">Servers</p>
+                                            <p class="card-category text-white"><?PHP HTML::print(TEXT_SECTION_OPENBLU_SERVERS); ?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -72,7 +72,7 @@
                                     <div class="justify-content-center">
                                         <div class="numbers">
                                             <p class="card-title">5K+</p>
-                                            <p class="card-category text-white">Connected Users</p>
+                                            <p class="card-category text-white"><?PHP HTML::print(TEXT_SECTION_OPENBLU_CONNECTED_USERS); ?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -81,8 +81,8 @@
                                 <div class="card-body">
                                     <div class="justify-content-center">
                                         <div class="numbers">
-                                            <p class="card-title">Free</p>
-                                            <p class="card-category text-white">Access</p>
+                                            <p class="card-title"><?PHP HTML::print(TEXT_SECTION_OPENBLU_FREE); ?></p>
+                                            <p class="card-category text-white"><?PHP HTML::print(TEXT_SECTION_OPENBLU_ACCESS); ?></p>
                                         </div>
                                     </div>
                                 </div>
@@ -91,8 +91,8 @@
                         <div class="col-md-6">
                             <div class="px-md-5">
                                 <hr class="line-success">
-                                <h3>OpenBlu VPN</h3>
-                                <p>A robust and free VPN Service powered by volunteers with well documented API Access</p>
+                                <h3><?PHP HTML::print(TEXT_SECTION_OPENBLU_HEADER); ?></h3>
+                                <p><?PHP HTML::print(TEXT_SECTION_OPENBLU_DESC); ?></p>
                                 <ul class="list-unstyled mt-5">
                                     <li class="py-2">
                                         <div class="d-flex align-items-center">
@@ -100,7 +100,7 @@
                                                 <i class="fa fa-lock"></i>
                                             </div>
                                             <div class="ml-3">
-                                                <h6>Standard Encryption on all VPN Servers</h6>
+                                                <h6><?PHP HTML::print(TEXT_SECTION_OPENBLU_FEATURE_1); ?></h6>
                                             </div>
                                         </div>
                                     </li>
@@ -110,7 +110,7 @@
                                                 <i class="fa fa-cog"></i>
                                             </div>
                                             <div class="ml-3">
-                                                <h6>Well documented Configuration Files</h6>
+                                                <h6><?PHP HTML::print(TEXT_SECTION_OPENBLU_FEATURE_2); ?></h6>
                                             </div>
                                         </div>
                                     </li>
@@ -120,13 +120,13 @@
                                                 <i class="fa fa-code"></i>
                                             </div>
                                             <div class="ml-3">
-                                                <h6>Try API before purchasing access</h6>
+                                                <h6><?PHP HTML::print(TEXT_SECTION_OPENBLU_FEATURE_3); ?></h6>
                                             </div>
                                         </div>
                                     </li>
                                     <li class="py-2">
                                         <div class="d-flex align-items-center">
-                                            <button class="btn btn-success btn-simple" onclick="window.open('https://openblu.intellivoid.info/');">Open Web Application</button>
+                                            <button class="btn btn-success btn-simple" onclick="window.open('https://openblu.intellivoid.info/');"><?PHP HTML::print(TEXT_SECTION_OPENBLU_OPEN_APPLICATION_BUTTON); ?></button>
                                         </div>
                                     </li>
                                 </ul>
@@ -143,12 +143,12 @@
 
                             <div class="col-md-6">
                                 <div class="pl-md-5">
-                                    <h1>Netlenium Framework</h1>
-                                    <p>A cross platform and cloud based browser automation framework, designed to create tests, automate complicated tasks or to monitor data without messing with complicated javascript or web components</p>
+                                    <h1><?PHP HTML::print(TEXT_SECTION_NETLENIUM_HEADER); ?></h1>
+                                    <p><?PHP HTML::print(TEXT_SECTION_NETLENIUM_DESC_1); ?></p>
                                     <br/>
-                                    <p>This is a ongoing project, more information will be released in the future</p>
+                                    <p><?PHP HTML::print(TEXT_SECTION_NETLENIUM_DESC_2); ?></p>
                                     <br/>
-                                    <button class="btn btn-primary btn-simple">Coming Soon</button>
+                                    <button class="btn btn-primary btn-simple"><?PHP HTML::print(TEXT_SECTION_NETLENIUM_BUTTON); ?></button>
                                 </div>
                             </div>
                             <div class="col-md-5">

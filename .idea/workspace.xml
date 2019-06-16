@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0d34366b-96f4-458a-8067-1d49aff115c2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/resources/languages/en.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/languages/en.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/sections/landing_footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/sections/landing_footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/pages/index/contents.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/pages/index/contents.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,43 +18,26 @@
     <favorites_list name="Intellivoid Website" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.36838123">
-      <split-first>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/resources/languages/en.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="425">
-                  <caret line="33" column="34" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="34" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/resources/sections/landing_footer.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/resources/sections/landing_footer.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="192">
-                  <caret line="20" column="93" selection-start-line="20" selection-start-column="93" selection-end-line="20" selection-end-column="93" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/languages/en.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="487">
+              <caret line="23" column="37" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/resources/pages/index/contents.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="150" column="128" selection-start-line="150" selection-start-column="128" selection-end-line="150" selection-end-column="128" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -73,13 +56,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/resources/sections/landing_javascript.php" />
         <option value="$PROJECT_DIR$/src/resources/configuration.json" />
-        <option value="$PROJECT_DIR$/src/resources/pages/index/contents.php" />
         <option value="$PROJECT_DIR$/src/resources/sections/landing_headers.php" />
         <option value="$PROJECT_DIR$/src/assets/css/blk-design-system.css" />
         <option value="$PROJECT_DIR$/src/resources/pages/contact/contents.php" />
         <option value="$PROJECT_DIR$/src/resources/sections/landing_navbar.php" />
-        <option value="$PROJECT_DIR$/src/resources/languages/en.json" />
         <option value="$PROJECT_DIR$/src/resources/sections/landing_footer.php" />
+        <option value="$PROJECT_DIR$/src/resources/languages/en.json" />
+        <option value="$PROJECT_DIR$/src/resources/pages/index/contents.php" />
       </list>
     </option>
   </component>
@@ -145,7 +128,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="contact" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Intellivoid Website" type="b2602c69:ProjectViewProjectNode" />
@@ -213,18 +196,18 @@
       <workItem from="1560051552460" duration="599000" />
       <workItem from="1560499969229" duration="13000" />
       <workItem from="1560547533019" duration="31000" />
-      <workItem from="1560631684727" duration="8865000" />
+      <workItem from="1560631684727" duration="10051000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18756000" />
+    <option name="totallyTimeSpent" value="19942000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49829933" weight="0.25945538" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49829933" visible="true" weight="0.25945538" />
       <window_info id="Structure" order="1" sideWeight="0.5017007" side_tool="true" weight="0.25945538" />
       <window_info id="Favorites" order="2" sideWeight="0.50167227" side_tool="true" weight="0.24962178" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -275,13 +258,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/pages/support/contents.php" />
     <entry file="file://$PROJECT_DIR$/src/resources/pages/contact/content.php" />
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/index/contents.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="2" selection-end-line="167" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/meta.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -334,17 +310,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/languages/en.json">
+    <entry file="file://$PROJECT_DIR$/src/resources/sections/landing_footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="33" column="34" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="34" />
+        <state relative-caret-position="360">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/sections/landing_footer.php">
+    <entry file="file://$PROJECT_DIR$/src/resources/languages/en.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="20" column="93" selection-start-line="20" selection-start-column="93" selection-end-line="20" selection-end-column="93" />
+        <state relative-caret-position="487">
+          <caret line="23" column="37" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/index/contents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="150" column="128" selection-start-line="150" selection-start-column="128" selection-end-line="150" selection-end-column="128" />
         </state>
       </provider>
     </entry>
