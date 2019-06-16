@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d34366b-96f4-458a-8067-1d49aff115c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/resources/languages/cn.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/sections/landing_headers.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/sections/landing_headers.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/sections/landing_navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/sections/landing_navbar.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,17 +22,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/languages/en.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+            <state relative-caret-position="96">
+              <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/resources/languages/cn.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/sections/landing_navbar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="79" column="72" selection-start-line="79" selection-start-column="72" selection-end-line="79" selection-end-column="72" />
+            <state relative-caret-position="319">
+              <caret line="74" column="24" lean-forward="true" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -83,6 +91,7 @@
         <option value="$PROJECT_DIR$/src/resources/pages/contact/contents.php" />
         <option value="$PROJECT_DIR$/src/resources/sections/landing_headers.php" />
         <option value="$PROJECT_DIR$/src/resources/sections/landing_navbar.php" />
+        <option value="$PROJECT_DIR$/src/resources/languages/cn.json" />
       </list>
     </option>
   </component>
@@ -120,15 +129,7 @@
               <item name="Intellivoid-Website" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="libraries" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Intellivoid Website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Intellivoid-Website" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="libraries" type="462c0819:PsiDirectoryNode" />
-              <item name="Support" type="462c0819:PsiDirectoryNode" />
+              <item name="languages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Intellivoid Website" type="b2602c69:ProjectViewProjectNode" />
@@ -147,7 +148,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources/pages/contact/scripts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources/languages" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
@@ -158,11 +159,11 @@
       <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\resources\languages" />
       <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\resources\pages\contact\scripts" />
       <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\resources\shared\scripts" />
       <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\resources\pages" />
       <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\resources\pages\contact" />
-      <recent name="C:\Users\Netkas\Documents\gits\Intellivoid-Website\src\assets\js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -191,12 +192,12 @@
       <workItem from="1560051552460" duration="599000" />
       <workItem from="1560499969229" duration="13000" />
       <workItem from="1560547533019" duration="31000" />
-      <workItem from="1560631684727" duration="21994000" />
+      <workItem from="1560631684727" duration="22219000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31885000" />
+    <option name="totallyTimeSpent" value="32110000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -383,13 +384,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/languages/en.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="55" column="17" lean-forward="true" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/sections/landing_headers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -399,8 +393,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/sections/landing_navbar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="79" column="72" selection-start-line="79" selection-start-column="72" selection-end-line="79" selection-end-column="72" />
+        <state relative-caret-position="319">
+          <caret line="74" column="24" lean-forward="true" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/languages/en.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/languages/cn.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
         </state>
       </provider>
     </entry>
