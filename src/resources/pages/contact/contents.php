@@ -3,18 +3,20 @@
     /** @noinspection PhpUnhandledExceptionInspection */
     use DynamicalWeb\HTML;
 
+    HTML::importScript('recaptcha');
 ?>
 <!doctype html>
 <html lang="<?PHP HTML::print(APP_LANGUAGE_ISO_639); ?>">
     <head>
         <?PHP HTML::importSection('landing_headers'); ?>
+        <?PHP HTML::print(re_import(), false); ?>
         <title><?PHP HTML::print(TEXT_PAGE_TITLE); ?></title>
     </head>
 
     <body class="index-page">
         <?PHP HTML::importSection('landing_navbar'); ?>
         <div class="wrapper">
-            <div class="page-header">
+            <div class="page-header" style="height: 100%; overflow: visible; margin-bottom: 100px">
                 <div class="page-header-image"></div>
 
                 <div class="content">
@@ -52,7 +54,16 @@
                                                         <label class="text-primary" for="message">
                                                             <i class="fa fa-pencil-alt"></i> <?PHP HTML::print(TEXT_LABEL_MESSAGE); ?>
                                                         </label>
-                                                        <textarea name="message" id="message" type="text" rows="5" class="form-control" placeholder="<?PHP HTML::print(TEXT_MESSAGE_PLACEHOLDER); ?>"></textarea>
+                                                        <textarea name="message" id="message" type="text" rows="3" class="form-control" placeholder="<?PHP HTML::print(TEXT_MESSAGE_PLACEHOLDER); ?>"></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <div style="text-align: center; display: inline-block;">
+                                                            <?PHP print(re_render()); ?>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
