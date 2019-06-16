@@ -17643,6 +17643,7 @@ hr.line-deafult {
 }
 
 .page-header {
+  min-height: 100vh;
   padding: 0;
   color: #ffffff;
   position: relative;

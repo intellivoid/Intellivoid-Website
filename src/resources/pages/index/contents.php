@@ -148,7 +148,7 @@
                                     <br/>
                                     <p><?PHP HTML::print(TEXT_SECTION_NETLENIUM_DESC_2); ?></p>
                                     <br/>
-                                    <button class="btn btn-primary btn-simple"><?PHP HTML::print(TEXT_SECTION_NETLENIUM_BUTTON); ?></button>
+                                    <button class="btn btn-primary btn-simple"><?PHP HTML::print(TEXT_SECTION_NETLENIUM_BUTTON) ?></button>
                                 </div>
                             </div>
                             <div class="col-md-5">
