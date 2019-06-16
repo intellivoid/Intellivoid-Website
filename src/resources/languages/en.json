@@ -40,6 +40,10 @@
         "privacy": {
             "PAGE_TITLE": "Intellivoid - Privacy Policy",
             "HEADER_TITLE": "Privacy Policy"
+        },
+        "tos": {
+            "PAGE_TITLE": "Intellivoid - Terms of Service",
+            "HEADER_TITLE": "Terms of Service"
         }
     },
     "sections": {
