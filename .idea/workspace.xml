@@ -5,10 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d34366b-96f4-458a-8067-1d49aff115c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/resources/shared/analytics.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/shared/scripts/google_analytics.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/libraries/Support/AutoConfig.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/libraries/Support/acm/Abstracts/ExceptionCodes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/libraries/Support/acm/CommandLine.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/libraries/Support/acm/Exceptions/LocalConfigurationException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/libraries/Support/acm/Exceptions/NoConfigurationFoundException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/libraries/Support/acm/Objects/Schema.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/libraries/Support/acm/acm.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/libraries/Support/acm/acm.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/sections/landing_headers.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/sections/landing_headers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/Support/Support.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/Support/Support.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/Support/configuration.ini" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/Support/configuration.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/libraries/Support/support.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/libraries/Support/support.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/pages/contact/scripts/submit_report.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/pages/contact/scripts/submit_report.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/src/resources/shared/analytics.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="96">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -63,10 +72,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/resources/pages/contact/scripts/submit_report.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+              <folding>
+                <element signature="e#11#36#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/sections/landing_headers.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="24">
               <caret line="1" column="86" selection-start-line="1" selection-start-column="86" selection-end-line="1" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/shared/scripts/recaptcha.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/shared/recaptcha.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -115,7 +154,6 @@
         <option value="$PROJECT_DIR$/src/resources/shared/scripts/alert.php" />
         <option value="$PROJECT_DIR$/src/resources/languages/en.json" />
         <option value="$PROJECT_DIR$/src/resources/pages/contact/scripts/callbacks.php" />
-        <option value="$PROJECT_DIR$/src/resources/pages/contact/scripts/submit_report.php" />
         <option value="$PROJECT_DIR$/src/resources/pages/contact/contents.php" />
         <option value="$PROJECT_DIR$/src/resources/sections/landing_navbar.php" />
         <option value="$PROJECT_DIR$/src/resources/languages/cn.json" />
@@ -130,12 +168,13 @@
         <option value="$PROJECT_DIR$/src/resources/pages/nodestorm/contents.php" />
         <option value="$PROJECT_DIR$/src/resources/shared/analytics.json" />
         <option value="$PROJECT_DIR$/src/resources/sections/landing_headers.php" />
+        <option value="$PROJECT_DIR$/src/resources/pages/contact/scripts/submit_report.php" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="146" />
-    <option name="y" value="58" />
+    <option name="x" value="28" />
+    <option name="y" value="176" />
     <option name="width" value="1130" />
     <option name="height" value="624" />
   </component>
@@ -195,7 +234,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="nodestorm" type="462c0819:PsiDirectoryNode" />
+              <item name="contact" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Intellivoid Website" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Intellivoid-Website" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="contact" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Intellivoid Website" type="b2602c69:ProjectViewProjectNode" />
@@ -229,7 +277,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resources/shared/scripts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Support" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -277,18 +325,19 @@
       <workItem from="1560631684727" duration="29274000" />
       <workItem from="1560722214286" duration="56000" />
       <workItem from="1560724956408" duration="2657000" />
-      <workItem from="1560728536760" duration="452000" />
+      <workItem from="1560728536760" duration="679000" />
+      <workItem from="1561102291214" duration="278000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42330000" />
+    <option name="totallyTimeSpent" value="42835000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49829933" visible="true" weight="0.2708018" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49829933" visible="true" weight="0.27458397" />
       <window_info id="Structure" order="1" sideWeight="0.5017007" side_tool="true" weight="0.25945538" />
       <window_info id="Favorites" order="2" sideWeight="0.50167227" side_tool="true" weight="0.24962178" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -317,8 +366,8 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/js/blk-design-system.js.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/sections/landing_javascript.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -361,13 +410,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/shared/web_config.json" />
-    <entry file="file://$PROJECT_DIR$/src/resources/shared/scripts/recaptcha.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/markdown/privacy/en.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -440,23 +482,6 @@
           <folding>
             <element signature="e#10#35#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/pages/contact/scripts/submit_report.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1512">
-          <caret line="63" column="36" selection-start-line="63" selection-start-column="36" selection-end-line="63" selection-end-column="36" />
-          <folding>
-            <element signature="e#11#36#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/shared/recaptcha.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -543,16 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/markdown/dev_antiengineer/en.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="69" selection-start-column="69" selection-end-column="69" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/pages/nodestorm/contents.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -563,17 +578,51 @@
     <entry file="file://$PROJECT_DIR$/src/resources/shared/analytics.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/sections/landing_headers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="86" selection-start-line="1" selection-start-column="86" selection-end-line="1" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/shared/scripts/recaptcha.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/shared/recaptcha.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/markdown/dev_antiengineer/en.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="69" selection-start-column="69" selection-end-column="69" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/shared/scripts/google_analytics.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/sections/landing_headers.php">
+    <entry file="file://$PROJECT_DIR$/src/resources/pages/contact/scripts/submit_report.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="86" selection-start-line="1" selection-start-column="86" selection-end-line="1" selection-end-column="86" />
+        <state relative-caret-position="295">
+          <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+          <folding>
+            <element signature="e#11#36#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
