@@ -16,6 +16,16 @@
 <meta name="msapplication-TileImage" content="/assets/favicon/mstile-144x144.png?resource=PYe0PMkxQv">
 <meta name="msapplication-config" content="/assets/favicon/browserconfig.xml?resource=PYe0PMkxQv">
 <meta name="theme-color" content="#171941">
+<meta name="title" content="Intellivoid">
+<meta name="description" content="Software & Services for consumers and businesses">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://intellivoid.info/">
+<meta property="og:title" content="Intellivoid">
+<meta property="og:description" content="Software & Services for consumers and businesses">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://intellivoid.info/">
+<meta property="twitter:title" content="Intellivoid">
+<meta property="twitter:description" content="Software & Services for consumers and businesses">
 <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
 <link href="/assets/css/nucleo-icons.css" rel="stylesheet" />
 <link href="/assets/css/blk-design-system.css?v=1.0.0" rel="stylesheet" />
