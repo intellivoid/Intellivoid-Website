@@ -60,8 +60,10 @@ use DynamicalWeb\HTML;
                     </a>
                     <div class="dropdown-menu" aria-labelledby="services-dropdown">
                         <a class="dropdown-item" href="https://openblu.intellivoid.info/">OpenBlu</a>
+                        <a class="dropdown-item" href="https://coffeehouse.intellivoid.info/">CoffeeHouse</a>
+                        <a class="dropdown-item" href="https://accounts.intellivoid.info/">Accounts</a>
                         <a class="dropdown-item" href="#">Netlenium <?PHP HTML::print(TEXT_NAVBAR_COMING_SOON_PLACEHOLDER); ?></a>
-                        <a class="dropdown-item" href="#">Accounts <?PHP HTML::print(TEXT_NAVBAR_COMING_SOON_PLACEHOLDER); ?></a>
+
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -69,9 +71,9 @@ use DynamicalWeb\HTML;
                         <p><?PHP HTML::print(TEXT_NAVBAR_SUPPORT_DROPDOWN); ?></p>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="services-dropdown">
-                        <a class="dropdown-item" href="/contact"><?PHP HTML::print(TEXT_NAVBAR_SUPPORT_CONTACT_US); ?></a>
-                        <a class="dropdown-item" href="/privacy"><?PHP HTML::print(TEXT_NAVBAR_SUPPORT_PRIVACY_POLICY); ?></a>
-                        <a class="dropdown-item" href="/tos"><?PHP HTML::print(TEXT_NAVBAR_SUPPORT_TERMS_OF_SERVICE); ?></a>
+                        <a class="dropdown-item" href="<?PHP DynamicalWeb::getRoute('contact', array(), true); ?>"><?PHP HTML::print(TEXT_NAVBAR_SUPPORT_CONTACT_US); ?></a>
+                        <a class="dropdown-item" href="<?PHP DynamicalWeb::getRoute('privacy', array(), true); ?>"><?PHP HTML::print(TEXT_NAVBAR_SUPPORT_PRIVACY_POLICY); ?></a>
+                        <a class="dropdown-item" href="<?PHP DynamicalWeb::getRoute('tos', array(), true); ?>"><?PHP HTML::print(TEXT_NAVBAR_SUPPORT_TERMS_OF_SERVICE); ?></a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -79,10 +81,10 @@ use DynamicalWeb\HTML;
                         <i class="fa fa-language"></i>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="services-dropdown">
-                        <a class="dropdown-item" href="/?set_language=en">
+                        <a class="dropdown-item" href="<?PHP DynamicalWeb::getRoute('change_language', array('language' => 'en', 'cache' => hash('sha256', time())), true); ?>">
                             <i class="flag-icon flag-icon-gb"></i> English
                         </a>
-                        <a class="dropdown-item" href="/?set_language=cn">
+                        <a class="dropdown-item" href="<?PHP DynamicalWeb::getRoute('change_language', array('language' => 'zh', 'cache' => hash('sha256', time())), true); ?>">
                             <i class="flag-icon flag-icon-cn"></i> 中文
                         </a>
                     </div>

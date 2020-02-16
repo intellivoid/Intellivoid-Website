@@ -3,7 +3,9 @@
     "debugging_mode": true,
     "router": [
         {"path": "/", "page": "index"},
-        {"path": "/contact", "page": "contact"}
+        {"path": "/contact", "page": "contact"},
+        {"path": "/privacy", "page": "privacy"},
+        {"path": "/tos", "page": "tos"}
     ],
     "libraries": {
         "Support": {
