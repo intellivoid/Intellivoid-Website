@@ -1,3 +1,6 @@
+<?PHP
+    use DynamicalWeb\HTML;
+?>
 <footer class="footer">
     <div class="container">
         <div class="row">
@@ -7,13 +10,13 @@
             <div class="col-md-3">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a href="/contact" class="nav-link"><?PHP \DynamicalWeb\HTML::print(TEXT_FOOTER_CONTACT_US); ?></a>
+                        <a href="/contact" class="nav-link"><?PHP HTML::print(TEXT_FOOTER_CONTACT_US); ?></a>
                     </li>
                     <li class="nav-item">
-                        <a href="/privacy" class="nav-link"><?PHP \DynamicalWeb\HTML::print(TEXT_FOOTER_PRIVACY_POLICY); ?></a>
+                        <a href="/privacy" class="nav-link"><?PHP HTML::print(TEXT_FOOTER_PRIVACY_POLICY); ?></a>
                     </li>
                     <li class="nav-item">
-                        <a href="/tos" class="nav-link"><?PHP \DynamicalWeb\HTML::print(TEXT_FOOTER_TERMS_OF_SERVICE); ?></a>
+                        <a href="/tos" class="nav-link"><?PHP HTML::print(TEXT_FOOTER_TERMS_OF_SERVICE); ?></a>
                     </li>
                 </ul>
             </div>
@@ -23,15 +26,18 @@
                         <a href="https://openblu.intellivoid.info/" class="nav-link">OpenBlu VPN</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Netlenium <?PHP \DynamicalWeb\HTML::print(TEXT_FOOTER_COMING_SOON_PLACEHOLDER); ?></a>
+                        <a href="https://accounts.intellivoid.info" class="nav-link">Accounts</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Accounts <?PHP \DynamicalWeb\HTML::print(TEXT_FOOTER_COMING_SOON_PLACEHOLDER); ?></a>
+                        <a href="https://coffeehouse.intellivoid.info" class="nav-link">CoffeeHouse</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Netlenium <?PHP HTML::print(TEXT_FOOTER_COMING_SOON_PLACEHOLDER); ?></a>
                     </li>
                 </ul>
             </div>
             <div class="col-md-3">
-                <h3 class="title"><?PHP \DynamicalWeb\HTML::print(TEXT_FOOTER_FOLLOW_US_TITLE); ?></h3>
+                <h3 class="title"><?PHP HTML::print(TEXT_FOOTER_FOLLOW_US_TITLE); ?></h3>
                 <div class="btn-wrapper profile">
                     <button onclick="window.open('https://twitter.com/Intellivoid');" class="btn btn-icon btn-simple btn-round btn-neutral">
                         <i class="fab fa-twitter"></i>
