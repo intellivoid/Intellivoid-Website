@@ -1,14 +1,14 @@
 <?PHP
 
     /** @noinspection PhpUnhandledExceptionInspection */
+    use DynamicalWeb\HTML;
 
     use COASniffle\COASniffle;
     use COASniffle\Handlers\COA;
-    use DynamicalWeb\HTML;
     use DynamicalWeb\Runtime;
 
     Runtime::import('COASniffle');
-    
+
     new COASniffle();
     $AvatarURL = COA::getAvatarUrl(
         'normal', '32c841165b82e2910704d01362c26d6a346505b4ef4311a8eeb9def2a03886ae8da4be65b55eb965'
@@ -18,7 +18,7 @@
 <html lang="<?PHP HTML::print(APP_LANGUAGE_ISO_639); ?>">
     <head>
         <?PHP HTML::importSection('landing_headers'); ?>
-        <title>Intellivoid - NodeStorm</title>
+        <title>Intellivoid - AntiEngineer</title>
     </head>
 
     <body class="profile-page">
@@ -30,11 +30,14 @@
                 <div class="container align-items-center">
                     <div class="row">
                         <div class="col-lg-6 col-md-6">
-                            <h1>NodeStorm</h1>
-                            <br/>
+                            <h1>Diederik Noordhuis</h1>
+                            <?PHP HTML::importMarkdown('dev_antiengineer'); ?>
                             <div class="btn-wrapper profile pt-3">
-                                <a target="_blank" href="https://github.com/qlg1" class="btn btn-icon btn-github btn-round">
+                                <a target="_blank" href="https://github.com/AntiEngineer" class="btn btn-icon btn-github btn-round">
                                     <i class="fab fa-github-alt"></i>
+                                </a>
+                                <a target="_blank" href="https://t.me/antiengineer" class="btn btn-icon btn-info btn-round">
+                                    <i class="fab fa-telegram-plane"></i>
                                 </a>
                             </div>
                         </div>
@@ -42,7 +45,10 @@
                             <div class="card card-coin card-plain">
                                 <div class="card-header">
                                     <img src="<?PHP HTML::print($AvatarURL, false); ?>" alt="avatar" class="img-center img-fluid rounded-circle">
-                                    <h4 class="title">Programmer / Greek Translator</h4>
+                                    <h4 class="title">System Administrator</h4>
+                                </div>
+                                <div class="card-body text-center">
+                                    <button class="btn btn-primary" onclick="location.href='mailto:diederikn@bytecha.in';">Contact</button>
                                 </div>
                             </div>
                         </div>

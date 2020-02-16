@@ -6,7 +6,11 @@
         {"path": "/contact", "page": "contact"},
         {"path": "/privacy", "page": "privacy"},
         {"path": "/tos", "page": "tos"},
-        {"path": "/about/netkas", "page": "about_netkas"}
+        {"path": "/about/netkas", "page": "about_netkas"},
+        {"path": "/about/nodestorm", "page": "about_nodestorm"},
+        {"path": "/about/antiengineer", "page": "about_antiengineer"},
+        {"path": "/about/mdelahozl", "page": "about_mdelahozl"},
+        {"path": "/about/dav", "page": "about_dav"}
     ],
     "libraries": {
         "Support": {
