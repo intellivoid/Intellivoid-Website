@@ -1,7 +1,18 @@
 <?PHP
 
     /** @noinspection PhpUnhandledExceptionInspection */
+
+    use COASniffle\COASniffle;
+    use COASniffle\Handlers\COA;
     use DynamicalWeb\HTML;
+    use DynamicalWeb\Runtime;
+
+    Runtime::import('COASniffle');
+    
+    new COASniffle();
+    $AvatarURL = COA::getAvatarUrl(
+        'normal', '32c841165b82e2910704d01362c26d6a346505b4ef4311a8eeb9def2a03886ae8da4be65b55eb965'
+    );
 ?>
 <!doctype html>
 <html lang="<?PHP HTML::print(APP_LANGUAGE_ISO_639); ?>">
@@ -30,7 +41,7 @@
                         <div class="col-lg-4 col-md-6 ml-auto mr-auto pt-5">
                             <div class="card card-coin card-plain">
                                 <div class="card-header">
-                                    <img src="/assets/img/devs/nodestorm.jpg" alt="avatar" class="img-center img-fluid rounded-circle">
+                                    <img src="<?PHP HTML::print($AvatarURL, false); ?>" alt="avatar" class="img-center img-fluid rounded-circle">
                                     <h4 class="title">Programmer / Greek Translator</h4>
                                 </div>
                             </div>

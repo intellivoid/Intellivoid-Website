@@ -13,8 +13,6 @@
     $AvatarURL = COA::getAvatarUrl(
             'normal', '5de2595b98ab26d2a826e2dba8a80989ef9fb06cd9d11bb8918df107a7523fd707ee4fd310e64a0a'
     );
-
-
 ?>
 <!doctype html>
 <html lang="<?PHP HTML::print(APP_LANGUAGE_ISO_639); ?>">
