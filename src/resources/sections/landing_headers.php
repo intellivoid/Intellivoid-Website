@@ -1,7 +1,6 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <!-- Generated Content, Reference ID <?PHP print(strtoupper(hash('sha256', time() . 'REF') . '(INTELLIVOID-TECHNOLOGIES)')); ?> -->
-<?PHP \DynamicalWeb\HTML::importScript('google_analytics'); ?>
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png?resource=PYe0PMkxQv">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png?resource=PYe0PMkxQv">
 <link rel="icon" type="image/png" sizes="194x194" href="/assets/favicon/favicon-194x194.png?resource=PYe0PMkxQv">
