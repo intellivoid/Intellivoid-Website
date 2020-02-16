@@ -5,7 +5,8 @@
         {"path": "/", "page": "index"},
         {"path": "/contact", "page": "contact"},
         {"path": "/privacy", "page": "privacy"},
-        {"path": "/tos", "page": "tos"}
+        {"path": "/tos", "page": "tos"},
+        {"path": "/about/netkas", "page": "about_netkas"}
     ],
     "libraries": {
         "Support": {
