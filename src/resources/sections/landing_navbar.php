@@ -84,8 +84,11 @@ use DynamicalWeb\HTML;
                         <a class="dropdown-item" href="<?PHP DynamicalWeb::getRoute('change_language', array('language' => 'en', 'cache' => hash('sha256', time())), true); ?>">
                             <i class="flag-icon flag-icon-gb"></i> English
                         </a>
-                        <a class="dropdown-item" href="<?PHP DynamicalWeb::getRoute('change_language', array('language' => 'zh', 'cache' => hash('sha256', time())), true); ?>">
-                            <i class="flag-icon flag-icon-cn"></i> 中文
+                        <a class="dropdown-item" href="<?PHP DynamicalWeb::getRoute('change_language', array('language' => 'es', 'cache' => hash('sha256', time())), true); ?>">
+                            <i class="flag-icon flag-icon-cl"></i> Español
+                        </a>
+                        <a class="dropdown-item" href="<?PHP DynamicalWeb::getRoute('change_language', array('language' => 'tr', 'cache' => hash('sha256', time())), true); ?>">
+                            <i class="flag-icon flag-icon-tr"></i> Türk
                         </a>
                     </div>
                 </li>
