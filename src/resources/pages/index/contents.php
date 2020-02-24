@@ -89,10 +89,6 @@
             <section class="section section-lg section-safe section-openblu">
                 <img src="/assets/img/path4.png" alt="path4" class="path">
                 <div class="container">
-                    <div class="squares square-1"></div>
-                    <div class="squares square-2"></div>
-                    <div class="squares square-3"></div>
-                    <div class="squares square-4"></div>
                     <div class="row row-grid justify-content-between">
                         <div class="col-md-5">
                             <img src="/assets/img/openblu.jpg" alt="OpenBlu VPN" class="img-fluid floating">
