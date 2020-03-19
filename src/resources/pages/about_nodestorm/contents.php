@@ -11,7 +11,7 @@
 
     new COASniffle();
     $AvatarURL = COA::getAvatarUrl(
-        'normal', '32c841165b82e2910704d01362c26d6a346505b4ef4311a8eeb9def2a03886ae8da4be65b55eb965'
+        'normal', '3d5e068d2bc40e6c6b89aecfb8e90b0ca92ac9ec0ca82429fb2431339b94e1a207edebab5b4f54bc'
     );
 ?>
 <!doctype html>
@@ -32,6 +32,7 @@
                         <div class="col-lg-6 col-md-6">
                             <h1>NodeStorm</h1>
                             <br/>
+                            <p>Intellivoid Support Moderator / Translator</p>
                             <div class="btn-wrapper profile pt-3">
                                 <a target="_blank" href="https://github.com/qlg1" class="btn btn-icon btn-github btn-round">
                                     <i class="fab fa-github-alt"></i>
@@ -41,7 +42,7 @@
                         <div class="col-lg-4 col-md-6 ml-auto mr-auto pt-5">
                             <div class="card card-coin card-plain">
                                 <div class="card-header">
-                                    <img src="<?PHP HTML::print($AvatarURL, false); ?>" alt="avatar" class="img-center img-fluid rounded-circle">
+                                    <img src="<?PHP HTML::print($AvatarURL, false); ?>" alt="avatar" class="img-center img-fluid rounded-circle" style="max-height: 150px;">
                                     <h4 class="title">Programmer / Greek Translator</h4>
                                 </div>
                             </div>
