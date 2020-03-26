@@ -10,7 +10,8 @@
         {"path": "/about/nodestorm", "page": "about_nodestorm"},
         {"path": "/about/antiengineer", "page": "about_antiengineer"},
         {"path": "/about/mdelahozl", "page": "about_mdelahozl"},
-        {"path": "/about/dav", "page": "about_dav"}
+        {"path": "/about/dav", "page": "about_dav"},
+        {"path": "/about/takarushi", "page": "about_takarushi"}
     ],
     "libraries": {
         "Support": {

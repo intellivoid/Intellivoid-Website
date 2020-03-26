@@ -11,14 +11,14 @@
 
     new COASniffle();
     $AvatarURL = COA::getAvatarUrl(
-            'normal', '5de2595b98ab26d2a826e2dba8a80989ef9fb06cd9d11bb8918df107a7523fd707ee4fd310e64a0a'
+            'normal', 'c88120009ba1f069f8749428451b0cc0e1d6d4346e20a4d3a897fd4ceaaee87592eb6caf8a78fa58'
     );
 ?>
 <!doctype html>
 <html lang="<?PHP HTML::print(APP_LANGUAGE_ISO_639); ?>">
     <head>
         <?PHP HTML::importSection('landing_headers'); ?>
-        <title>Intellivoid - Netkas</title>
+        <title>Intellivoid - Takarushi</title>
     </head>
 
     <body class="profile-page">
@@ -30,29 +30,31 @@
                 <div class="container align-items-center">
                     <div class="row">
                         <div class="col-lg-6 col-md-6">
-                            <h1>Zi Xing</h1>
+                            <h1>Takarushi</h1>
                             <br/>
-                            <p class="profile-description"><?PHP HTML::importMarkdown('dev_netkas'); ?></p>
+                            <p class="profile-description">
+                                Furry Translator who's interested on tech and sometimes, weird experiments with it, Translator af Intellivoid. I also translated apps like Nicegram on iOS, Recordie and Swift Wall on Android.!.
+                            </p>
                             <div class="btn-wrapper profile pt-3">
-                                <a target="_blank" href="https://twitter.com/narrakas" class="btn btn-icon btn-twitter btn-round">
+                                <a target="_blank" href="https://instagram.com/rtakaru.jpg" class="btn btn-icon btn-primary btn-round">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a target="_blank" href="https://twitter.com/_rtakaru" class="btn btn-icon btn-twitter btn-round">
                                     <i class="fab fa-twitter"></i>
                                 </a>
-                                <a target="_blank" href="https://github.com/netkas" class="btn btn-icon btn-github btn-round">
-                                    <i class="fab fa-github-alt"></i>
-                                </a>
-                                <a target="_blank" href="https://t.me/netkas" class="btn btn-icon btn-info btn-round">
+                                <a target="_blank" href="https://t.me/ryoshuuke" class="btn btn-icon btn-info btn-round">
                                     <i class="fab fa-telegram-plane"></i>
                                 </a>
-                                <a target="_blank" href="mailto:netkas@intellivoid.net" class="btn btn-icon btn-primary btn-round">
-                                    <i class="fa fa-inbox"></i>
+                                <a target="_blank" href="https://takarushi.me" class="btn btn-icon btn-dark btn-round">
+                                    <i class="fa fa-globe"></i>
                                 </a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 ml-auto mr-auto pt-5">
                             <div class="card card-coin card-plain">
                                 <div class="card-header">
-                                    <img src="<?PHP HTML::print($AvatarURL, false); ?>" alt="avatar" class="img-center img-fluid rounded-circle">
-                                    <h4 class="title">Founder of Intellivoid</h4>
+                                    <img src="<?PHP HTML::print($AvatarURL, false); ?>" alt="avatar" style="width: 200px; height: 200px;" class="img-center img-fluid rounded-circle">
+                                    <h4 class="title">Intellivoid Spanish Translator</h4>
                                 </div>
                             </div>
                         </div>
