@@ -11,7 +11,8 @@
         {"path": "/about/antiengineer", "page": "about_antiengineer"},
         {"path": "/about/mdelahozl", "page": "about_mdelahozl"},
         {"path": "/about/dav", "page": "about_dav"},
-        {"path": "/about/takarushi", "page": "about_takarushi"}
+        {"path": "/about/takarushi", "page": "about_takarushi"},
+        {"path": "/about/nocturn9x", "page": "about_nocturn9x"}
     ],
     "libraries": {
         "Support": {
