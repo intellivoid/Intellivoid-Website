@@ -45,10 +45,10 @@
                             <div class="card card-coin card-plain">
                                 <div class="card-header">
                                     <img src="<?PHP HTML::print($AvatarURL, false); ?>" alt="avatar" class="img-center img-fluid rounded-circle">
-                                    <h4 class="title">System Administrator</h4>
+                                    <h4 class="title">Co-Founder / SysAdmin</h4>
                                 </div>
                                 <div class="card-body text-center">
-                                    <button class="btn btn-primary" onclick="location.href='mailto:diederikn@bytecha.in';">Contact</button>
+                                    <button class="btn btn-primary" onclick="location.href='mailto:diederikn@intellivoid.info';">Contact</button>
                                 </div>
                             </div>
                         </div>
