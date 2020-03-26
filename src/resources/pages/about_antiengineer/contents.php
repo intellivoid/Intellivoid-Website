@@ -11,7 +11,7 @@
 
     new COASniffle();
     $AvatarURL = COA::getAvatarUrl(
-        'normal', '32c841165b82e2910704d01362c26d6a346505b4ef4311a8eeb9def2a03886ae8da4be65b55eb965'
+        'normal', '410835cda06076145ed59cc8ee16a678adb3e9975058d03fce2e631ffc8fa27bf527f11414517f58'
     );
 ?>
 <!doctype html>
