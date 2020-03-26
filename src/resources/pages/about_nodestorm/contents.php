@@ -42,7 +42,7 @@
                         <div class="col-lg-4 col-md-6 ml-auto mr-auto pt-5">
                             <div class="card card-coin card-plain">
                                 <div class="card-header">
-                                    <img src="<?PHP HTML::print($AvatarURL, false); ?>" alt="avatar" class="img-center img-fluid rounded-circle" style="max-height: 150px;">
+                                    <img src="<?PHP HTML::print($AvatarURL, false); ?>" alt="avatar" style="width: 200px; height: 200px;" class="img-center img-fluid rounded-circle" style="max-height: 150px;">
                                     <h4 class="title">Programmer / Greek Translator</h4>
                                 </div>
                             </div>
