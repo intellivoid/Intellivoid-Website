@@ -13,7 +13,8 @@
         {"path": "/about/dav", "page": "about_dav"},
         {"path": "/about/takarushi", "page": "about_takarushi"},
         {"path": "/about/nocturn9x", "page": "about_nocturn9x"},
-        {"path": "/about/pqhaz", "page": "about_pqhaz"}
+        {"path": "/about/pqhaz", "page": "about_pqhaz"},
+        {"path": "/about/bengris32", "page": "about_bengris32"}
     ],
     "libraries": {
         "Support": {
