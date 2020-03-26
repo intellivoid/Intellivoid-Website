@@ -14,7 +14,8 @@
         {"path": "/about/takarushi", "page": "about_takarushi"},
         {"path": "/about/nocturn9x", "page": "about_nocturn9x"},
         {"path": "/about/pqhaz", "page": "about_pqhaz"},
-        {"path": "/about/bengris32", "page": "about_bengris32"}
+        {"path": "/about/bengris32", "page": "about_bengris32"},
+        {"path": "/about/loque", "page": "about_loque"}
     ],
     "libraries": {
         "Support": {
