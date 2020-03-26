@@ -43,7 +43,7 @@
                                 <a target="_blank" href="https://t.me/netkas" class="btn btn-icon btn-info btn-round">
                                     <i class="fab fa-telegram-plane"></i>
                                 </a>
-                                <a target="_blank" href="mailto:netkas@intellivoid.info" class="btn btn-icon btn-primary btn-round">
+                                <a target="_blank" href="mailto:netkas@intellivoid.net" class="btn btn-icon btn-primary btn-round">
                                     <i class="fa fa-inbox"></i>
                                 </a>
                             </div>

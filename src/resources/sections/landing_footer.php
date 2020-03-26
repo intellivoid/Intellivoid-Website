@@ -23,13 +23,13 @@
             <div class="col-md-3">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a href="https://openblu.intellivoid.info/" class="nav-link">OpenBlu VPN</a>
+                        <a href="https://openblu.intellivoid.net/" class="nav-link">OpenBlu VPN</a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://accounts.intellivoid.info" class="nav-link">Accounts</a>
+                        <a href="https://accounts.intellivoid.net" class="nav-link">Accounts</a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://coffeehouse.intellivoid.info" class="nav-link">CoffeeHouse</a>
+                        <a href="https://coffeehouse.intellivoid.net" class="nav-link">CoffeeHouse</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">Netlenium <?PHP HTML::print(TEXT_FOOTER_COMING_SOON_PLACEHOLDER); ?></a>

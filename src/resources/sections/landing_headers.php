@@ -18,11 +18,11 @@
 <meta name="title" content="Intellivoid">
 <meta name="description" content="Software & Services for consumers and businesses">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://intellivoid.info/">
+<meta property="og:url" content="https://intellivoid.net/">
 <meta property="og:title" content="Intellivoid">
 <meta property="og:description" content="Software & Services for consumers and businesses">
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://intellivoid.info/">
+<meta property="twitter:url" content="https://intellivoid.net/">
 <meta property="twitter:title" content="Intellivoid">
 <meta property="twitter:description" content="Software & Services for consumers and businesses">
 <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />

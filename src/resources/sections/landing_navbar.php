@@ -59,9 +59,9 @@ use DynamicalWeb\HTML;
                         <p><?PHP HTML::print(TEXT_NAVBAR_SERVICES_DROPDOWN); ?></p>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="services-dropdown">
-                        <a class="dropdown-item" href="https://openblu.intellivoid.info/">OpenBlu</a>
-                        <a class="dropdown-item" href="https://coffeehouse.intellivoid.info/">CoffeeHouse</a>
-                        <a class="dropdown-item" href="https://accounts.intellivoid.info/">Accounts</a>
+                        <a class="dropdown-item" href="https://openblu.intellivoid.net/">OpenBlu</a>
+                        <a class="dropdown-item" href="https://coffeehouse.intellivoid.net/">CoffeeHouse</a>
+                        <a class="dropdown-item" href="https://accounts.intellivoid.net/">Accounts</a>
                         <a class="dropdown-item" href="#">Netlenium <?PHP HTML::print(TEXT_NAVBAR_COMING_SOON_PLACEHOLDER); ?></a>
 
                     </div>

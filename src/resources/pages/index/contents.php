@@ -59,13 +59,13 @@
                             <h2 class="title"><?PHP HTML::print(TEXT_SECTION_ACOUNTS_HEADER); ?></h2>
                             <h4 class="description"><?PHP HTML::print(TEXT_SECTION_ACCOUNTS_SUB_HEADER); ?></h4>
                             <div class="btn-wrapper">
-                                <a href="https://accounts.intellivoid.info/auth/login" class="btn btn-primary btn-round" target="_blank"><?PHP HTML::print(TEXT_SECTION_ACCOUNTS_OPEN_BUTTON); ?></a>
-                                <a href="https://accounts.intellivoid.info/privacy" class="btn btn-primary btn-simple btn-round btn-lg" target="_blank"><?PHP HTML::print(TEXT_SECTION_ACCOUNTS_PRIVACY_BUTTON); ?></a>
+                                <a href="https://accounts.intellivoid.net/auth/login" class="btn btn-primary btn-round" target="_blank"><?PHP HTML::print(TEXT_SECTION_ACCOUNTS_OPEN_BUTTON); ?></a>
+                                <a href="https://accounts.intellivoid.net/privacy" class="btn btn-primary btn-simple btn-round btn-lg" target="_blank"><?PHP HTML::print(TEXT_SECTION_ACCOUNTS_PRIVACY_BUTTON); ?></a>
                             </div>
                         </div>
                     </div>
                     <div class="blur-hover">
-                        <a href="https://accounts.intellivoid.info">
+                        <a href="https://accounts.intellivoid.net">
                             <div class="icons-container blur-item on-screen mt-5">
                                 <i class="icon fa fa-5x fa-lock"></i>
                                 <i class="icon fa fa-coffee"></i>
@@ -161,7 +161,7 @@
                                     </li>
                                     <li class="py-2">
                                         <div class="d-flex align-items-center">
-                                            <button class="btn btn-success btn-simple" onclick="window.open('https://openblu.intellivoid.info/');"><?PHP HTML::print(TEXT_SECTION_OPENBLU_OPEN_APPLICATION_BUTTON); ?></button>
+                                            <button class="btn btn-success btn-simple" onclick="window.open('https://openblu.intellivoid.net/');"><?PHP HTML::print(TEXT_SECTION_OPENBLU_OPEN_APPLICATION_BUTTON); ?></button>
                                         </div>
                                     </li>
                                 </ul>
@@ -213,7 +213,7 @@
                                     </li>
                                     <li class="py-2">
                                         <div class="d-flex align-items-center">
-                                            <button class="btn btn-info btn-simple" onclick="window.open('https://coffeehouse.intellivoid.info/');"><?PHP HTML::print(TEXT_SECTION_COFFEEHOUSE_OPEN_COFFEEHOUSE_BUTTON); ?></button>
+                                            <button class="btn btn-info btn-simple" onclick="window.open('https://coffeehouse.intellivoid.net/');"><?PHP HTML::print(TEXT_SECTION_COFFEEHOUSE_OPEN_COFFEEHOUSE_BUTTON); ?></button>
                                         </div>
                                     </li>
                                 </ul>
