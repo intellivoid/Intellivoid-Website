@@ -15,7 +15,8 @@
         {"path": "/about/nocturn9x", "page": "about_nocturn9x"},
         {"path": "/about/pqhaz", "page": "about_pqhaz"},
         {"path": "/about/bengris32", "page": "about_bengris32"},
-        {"path": "/about/loque", "page": "about_loque"}
+        {"path": "/about/loque", "page": "about_loque"},
+        {"path": "/about/lothieveth", "page": "about_lothieveth"}
     ],
     "libraries": {
         "Support": {
