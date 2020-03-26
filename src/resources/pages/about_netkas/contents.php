@@ -11,7 +11,7 @@
 
     new COASniffle();
     $AvatarURL = COA::getAvatarUrl(
-            'normal', '5de2595b98ab26d2a826e2dba8a80989ef9fb06cd9d11bb8918df107a7523fd707ee4fd310e64a0a'
+            'normal', 'e7fb53bb52219fdae7d5ba0a78b87ad361f008d90f40688baf3b76a06f5add59a8023d3d7b96d478'
     );
 ?>
 <!doctype html>
@@ -51,7 +51,7 @@
                         <div class="col-lg-4 col-md-6 ml-auto mr-auto pt-5">
                             <div class="card card-coin card-plain">
                                 <div class="card-header">
-                                    <img src="<?PHP HTML::print($AvatarURL, false); ?>" alt="avatar" class="img-center img-fluid rounded-circle">
+                                    <img src="<?PHP HTML::print($AvatarURL, false); ?>" alt="avatar" style="width: 200px; height: 200px;" class="img-center img-fluid rounded-circle">
                                     <h4 class="title">Founder of Intellivoid</h4>
                                 </div>
                             </div>
