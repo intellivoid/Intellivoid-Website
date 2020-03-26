@@ -1,9 +1,10 @@
 <?PHP
 
     /** @noinspection PhpUnhandledExceptionInspection */
+
+    use DynamicalWeb\DynamicalWeb;
     use DynamicalWeb\HTML;
 
-    HTML::importScript('recaptcha');
     HTML::importScript('submit_report');
     HTML::importScript('alert');
 ?>
@@ -11,7 +12,6 @@
 <html lang="<?PHP HTML::print(APP_LANGUAGE_ISO_639); ?>">
     <head>
         <?PHP HTML::importSection('landing_headers'); ?>
-        <?PHP HTML::print(re_import(), false); ?>
         <title><?PHP HTML::print(TEXT_PAGE_TITLE); ?></title>
     </head>
 
@@ -31,7 +31,7 @@
                                         <h1 class="profile-title text-left"><?PHP HTML::print(TEXT_HEADER_TITLE); ?></h1>
                                     </div>
                                     <div class="card-body">
-                                        <form action="/contact" method="POST">
+                                        <form action="<?PHP DynamicalWeb::getRoute('contact') ?>" method="POST">
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="form-group">
@@ -57,15 +57,6 @@
                                                             <i class="fa fa-pencil-alt"></i> <?PHP HTML::print(TEXT_LABEL_MESSAGE); ?>
                                                         </label>
                                                         <textarea name="message" id="message" type="text" rows="3" class="form-control" placeholder="<?PHP HTML::print(TEXT_MESSAGE_PLACEHOLDER); ?>"></textarea>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <div class="form-group">
-                                                        <div style="text-align: center; display: inline-block;">
-                                                            <?PHP print(re_render()); ?>
-                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>

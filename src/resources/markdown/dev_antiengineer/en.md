@@ -1,1 +1,2 @@
-Founder of Bytechain, System administrator for Intellivoid's servers.
+Full-time System administrator for Intellivoid's servers. Software Engineer
+for backend services of Intellivoid

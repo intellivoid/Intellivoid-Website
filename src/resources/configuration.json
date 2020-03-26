@@ -1,6 +1,23 @@
 {
-    "home_page": "index",
     "primary_language": "en",
+    "debugging_mode": true,
+    "router": [
+        {"path": "/", "page": "index"},
+        {"path": "/contact", "page": "contact"},
+        {"path": "/privacy", "page": "privacy"},
+        {"path": "/tos", "page": "tos"},
+        {"path": "/about/netkas", "page": "about_netkas"},
+        {"path": "/about/nodestorm", "page": "about_nodestorm"},
+        {"path": "/about/antiengineer", "page": "about_antiengineer"},
+        {"path": "/about/mdelahozl", "page": "about_mdelahozl"},
+        {"path": "/about/dav", "page": "about_dav"},
+        {"path": "/about/takarushi", "page": "about_takarushi"},
+        {"path": "/about/nocturn9x", "page": "about_nocturn9x"},
+        {"path": "/about/pqhaz", "page": "about_pqhaz"},
+        {"path": "/about/bengris32", "page": "about_bengris32"},
+        {"path": "/about/loque", "page": "about_loque"},
+        {"path": "/about/lothieveth", "page": "about_lothieveth"}
+    ],
     "libraries": {
         "Support": {
             "directory_name": "Support",
@@ -8,6 +25,13 @@
             "check_class_exists": true,
             "namespace": "Support",
             "main_class": "Support"
+        },
+        "COASniffle": {
+            "directory_name": "COASniffle",
+            "autoloader": "COASniffle.php",
+            "check_class_exists": true,
+            "namespace": "COASniffle",
+            "main_class": "COASniffle"
         }
     },
     "runtime_scripts": {
@@ -15,7 +39,7 @@
         "on_page_load": [],
         "page_loaded": [],
         "after_request": [],
-        "on_request": [],
+        "on_request": ["maintenance.php"],
         "on_import": []
     }
 }

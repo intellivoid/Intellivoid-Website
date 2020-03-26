@@ -1,7 +1,6 @@
+<!-- Generated Content, Reference ID <?PHP print(strtoupper(hash('sha256', time() . 'REF') . '(INTELLIVOID-TECHNOLOGIES)')); ?> -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!-- Generated Content, Reference ID <?PHP print(strtoupper(hash('sha256', time() . 'REF') . '(INTELLIVOID-TECHNOLOGIES)')); ?> -->
-<?PHP \DynamicalWeb\HTML::importScript('google_analytics'); ?>
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png?resource=PYe0PMkxQv">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png?resource=PYe0PMkxQv">
 <link rel="icon" type="image/png" sizes="194x194" href="/assets/favicon/favicon-194x194.png?resource=PYe0PMkxQv">
@@ -19,15 +18,14 @@
 <meta name="title" content="Intellivoid">
 <meta name="description" content="Software & Services for consumers and businesses">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://intellivoid.info/">
+<meta property="og:url" content="https://intellivoid.net/">
 <meta property="og:title" content="Intellivoid">
 <meta property="og:description" content="Software & Services for consumers and businesses">
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://intellivoid.info/">
+<meta property="twitter:url" content="https://intellivoid.net/">
 <meta property="twitter:title" content="Intellivoid">
 <meta property="twitter:description" content="Software & Services for consumers and businesses">
 <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
-<link href="/assets/css/nucleo-icons.css" rel="stylesheet" />
-<link href="/assets/css/blk-design-system.css?v=1.0.0" rel="stylesheet" />
+<link href="/assets/css/style.css" rel="stylesheet" />
 <link href="/assets/css/all.css" rel="stylesheet" />
 <link href="/assets/css/flag-icon.css" rel="stylesheet"/>
