@@ -6,18 +6,7 @@
         {"path": "/", "page": "index"},
         {"path": "/contact", "page": "contact"},
         {"path": "/privacy", "page": "privacy"},
-        {"path": "/tos", "page": "tos"},
-        {"path": "/about/netkas", "page": "about_netkas"},
-        {"path": "/about/nodestorm", "page": "about_nodestorm"},
-        {"path": "/about/antiengineer", "page": "about_antiengineer"},
-        {"path": "/about/mdelahozl", "page": "about_mdelahozl"},
-        {"path": "/about/dav", "page": "about_dav"},
-        {"path": "/about/takarushi", "page": "about_takarushi"},
-        {"path": "/about/nocturn9x", "page": "about_nocturn9x"},
-        {"path": "/about/pqhaz", "page": "about_pqhaz"},
-        {"path": "/about/bengris32", "page": "about_bengris32"},
-        {"path": "/about/loque", "page": "about_loque"},
-        {"path": "/about/lothieveth", "page": "about_lothieveth"}
+        {"path": "/tos", "page": "tos"}
     ],
     "libraries": {
         "Support": {
