@@ -1,12 +1,21 @@
 {
-    "primary_language": "en",
-    "debugging_mode": false,
-    "enable_ppm": true,
+    "configuration": {
+        "primary_language": "en",
+        "debugging_mode": false,
+        "enable_ppm": true,
+        "buffer_output": true,
+        "compression": {
+            "compress_html": true,
+            "compress_javascript": true,
+            "compress_css": true
+        },
+        "favicon": "/assets/favicon/favicon.ico"
+    },
     "router": [
-        {"path": "/", "page": "index"},
-        {"path": "/contact", "page": "contact"},
-        {"path": "/privacy", "page": "privacy"},
-        {"path": "/tos", "page": "tos"}
+        {"method": ["GET", "POST"], "path": "/", "page": "index", "params": []},
+        {"method": ["GET", "POST"], "path": "/contact", "page": "contact", "params": []},
+        {"method": ["GET", "POST"], "path": "/privacy", "page": "privacy", "params": []},
+        {"method": ["GET", "POST"], "path": "/tos", "page": "tos", "params": []}
     ],
     "libraries": {
         "Support": {
