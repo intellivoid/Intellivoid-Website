@@ -1,7 +1,7 @@
 {
     "configuration": {
         "primary_language": "en",
-        "debugging_mode": false,
+        "debugging_mode": true,
         "enable_ppm": true,
         "buffer_output": true,
         "compression": {
@@ -12,31 +12,20 @@
         "favicon": "/assets/favicon/favicon.ico"
     },
     "router": [
-        {"method": ["GET", "POST"], "path": "/", "page": "index", "params": []},
-        {"method": ["GET", "POST"], "path": "/contact", "page": "contact", "params": []},
-        {"method": ["GET", "POST"], "path": "/privacy", "page": "privacy", "params": []},
-        {"method": ["GET", "POST"], "path": "/tos", "page": "tos", "params": []}
+        {"method": ["GET"], "path": "/about", "page": "about", "params": []},
+        {"method": ["GET"], "path": "/forgot_password", "page": "forgot_password", "params": []},
+        {"method": ["GET"], "path": "/", "page": "index", "params": []},
+        {"method": ["GET"], "path": "/login", "page": "login", "params": []},
+        {"method": ["GET"], "path": "/pricing", "page": "pricing", "params": []},
+        {"method": ["GET"], "path": "/signup", "page": "signup", "params": []}
     ],
-    "libraries": {
-        "Support": {
-            "package_name": "net.intellivoid.support",
-            "version": "latest",
-            "import_dependencies": true,
-            "throw_error": true
-        },
-        "COASniffle": {
-            "package_name": "net.intellivoid.coa_sniffle",
-            "version": "latest",
-            "import_dependencies": true,
-            "throw_error": true
-        }
-    },
+    "libraries": {},
     "runtime_scripts": {
         "initialize": [],
         "on_page_load": [],
         "page_loaded": [],
         "after_request": [],
-        "on_request": ["maintenance.php"],
+        "on_request": [],
         "on_import": []
     }
 }

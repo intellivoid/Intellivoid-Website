@@ -1,274 +1,164 @@
 <?PHP
-    /** @noinspection PhpUndefinedConstantInspection */
-    /** @noinspection PhpUnhandledExceptionInspection */
-
     use DynamicalWeb\HTML;
 ?>
 <!doctype html>
-<html lang="<?PHP HTML::print(APP_LANGUAGE_ISO_639); ?>">
+<html lang="en">
     <head>
-        <?PHP HTML::importSection('landing_headers'); ?>
-        <title><?PHP HTML::print(TEXT_PAGE_TITLE); ?></title>
+        <title>Opalin HTML Template</title>
+        <meta name="description" content="A minimal and responsive HTML5 landing page built on lightweight, clean and customizable code.">
+        <?PHP HTML::importSection("header"); ?>
     </head>
+    <body class="page page-home preload">
+        <?PHP HTML::importSection("navigation_dark"); ?>
+        <main>
 
-    <body class="index-page">
-        <?PHP HTML::importSection('landing_navbar'); ?>
-
-        <div class="wrapper">
-
-            <div class="page-header header-filter">
-                <div class="squares square1"></div>
-                <div class="squares square2"></div>
-                <div class="squares square3"></div>
-                <div class="squares square4"></div>
-                <div class="squares square5"></div>
-                <div class="squares square6"></div>
-                <div class="squares square7"></div>
-                <div class="content-center">
-                    <div class="row row-grid justify-content-between align-items-center text-left">
-                        <div class="col-lg-6 col-md-6">
-                            <h1 class="text-white"><?PHP HTML::print(TEXT_HEADER_TITLE); ?></h1>
-                            <p class="text-white mb-3"><?PHP HTML::print(TEXT_HEADER_SUB); ?></p>
-                            
-                            <div class="btn-wrapper">
-                                <div class="button-container">
-                                    <button onclick="window.open('https://twitter.com/Intellivoid');" class="btn btn-icon btn-simple btn-round btn-neutral">
-                                        <i class="fab fa-twitter"></i>
-                                    </button>
-                                    <button onclick="window.open('https://t.me/Intellivoid');" class="btn btn-icon btn-simple btn-round btn-neutral">
-                                        <i class="fab fa-telegram-plane"></i>
-                                    </button>
-                                    <button onclick="window.open('https://instagram.com/Intellivoid');" class="btn btn-icon btn-simple btn-round btn-neutral">
-                                        <i class="fab fa-instagram"></i>
-                                    </button>
-                                    <button onclick="window.open('https://github.com/Intellivoid');" class="btn btn-icon btn-simple btn-round btn-neutral">
-                                        <i class="fab fa-github-alt"></i>
-                                    </button>
-                                </div>
+            <section class="bg-image-hero center-tablet dark overlay-hero">
+                <div class="full-screen -margin-bottom middle padding padding-top-tablet">
+                    <div class="row max-width-l">
+                        <div class="col-one-half middle">
+                            <div>
+                                <h1 class="hero">Opalin HTML Template</h1>
+                                <p class="lead">A minimal and responsive HTML5 landing page built on lightweight, clean and customizable code.</p>
+                                <a href="<?PHP \DynamicalWeb\DynamicalWeb::getRoute("signup", [], true); ?>" class="button button-primary space-top" role="button">Get Started</a>
                             </div>
                         </div>
-
+                        <div class="col-one-half middle">
+                            <img src="/assets/media/content/hero-illustration.png" srcset="/assets/media/content/hero-illustration.png 1x, /assets/media/content/hero-illustration@2x.png 2x" alt="Hero Illustration">
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="section section-nucleo-icons">
-                <img src="assets/img/path3.png" alt="path3" class="path">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8 col-md-12">
-                            <h2 class="title"><?PHP HTML::print(TEXT_SECTION_ACOUNTS_HEADER); ?></h2>
-                            <h4 class="description"><?PHP HTML::print(TEXT_SECTION_ACCOUNTS_SUB_HEADER); ?></h4>
-                            <div class="btn-wrapper">
-                                <a href="https://accounts.intellivoid.net/auth/login" class="btn btn-primary btn-round" target="_blank"><?PHP HTML::print(TEXT_SECTION_ACCOUNTS_OPEN_BUTTON); ?></a>
-                                <a href="https://accounts.intellivoid.net/privacy" class="btn btn-primary btn-simple btn-round btn-lg" target="_blank"><?PHP HTML::print(TEXT_SECTION_ACCOUNTS_PRIVACY_BUTTON); ?></a>
-                            </div>
+                <div class="padding">
+                    <div class="row margin-bottom max-width-l">
+                        <div class="col-one-half middle">
+                            <h3>Custom Framework</h3>
+                            <p class="paragraph">Everything is neatly organized in Sass and has been heavily focused on performances.</p>
+                        </div>
+                        <div class="col-one-half">
+                            <img class="rounded shadow-l" src="/assets/media/content/editor.png" srcset="/assets/media/content/editor.png 1x, /assets/media/content/editor@2x.png 2x" alt="Editor">
                         </div>
                     </div>
-                    <div class="blur-hover">
-                        <a href="https://accounts.intellivoid.net">
-                            <div class="icons-container blur-item on-screen mt-5">
-                                <i class="icon fa fa-5x fa-lock"></i>
-                                <i class="icon fa fa-coffee"></i>
-                                <i class="icon fa fa-eye"></i>
-                                <i class="icon fa fa-shopping-bag"></i>
-                                <i class="icon fa fa-code"></i>
-                                <i class="icon fa fa-cloud"></i>
-                                <i class="icon fab fa-telegram"></i>
-                                <i class="icon fa fa-info-circle"></i>
-                                <i class="icon fa fa-wallet"></i>
-                                <i class="icon fab fa-paypal"></i>
-                                <i class="icon fa fa-cog"></i>
-                                <i class="icon fa fa-fingerprint"></i>
-                                <i class="icon fa fa-user"></i>
-                            </div>
-                            <span class="blur-hidden h5 text-primary"><?PHP HTML::print(TEXT_SECTION_ACCOUNTS_HINT); ?></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <section class="section section-lg section-safe section-openblu">
-                <img src="/assets/img/path4.png" alt="path4" class="path">
-                <div class="container">
-                    <div class="row row-grid justify-content-between">
-                        <div class="col-md-5">
-                            <img src="/assets/img/openblu.jpg" alt="OpenBlu VPN" class="img-fluid floating">
-                            <div class="card card-stats bg-danger">
-                                <div class="card-body">
-                                    <div class="justify-content-center">
-                                        <div class="numbers">
-                                            <p class="card-title">10K+</p>
-                                            <p class="card-category text-white"><?PHP HTML::print(TEXT_SECTION_OPENBLU_SERVERS); ?></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card card-stats bg-info">
-                                <div class="card-body">
-                                    <div class="justify-content-center">
-                                        <div class="numbers">
-                                            <p class="card-title">100K+</p>
-                                            <p class="card-category text-white"><?PHP HTML::print(TEXT_SECTION_OPENBLU_CONNECTED_USERS); ?></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card card-stats bg-default">
-                                <div class="card-body">
-                                    <div class="justify-content-center">
-                                        <div class="numbers">
-                                            <p class="card-title"><?PHP HTML::print(TEXT_SECTION_OPENBLU_FREE); ?></p>
-                                            <p class="card-category text-white"><?PHP HTML::print(TEXT_SECTION_OPENBLU_ACCESS); ?></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                    <div class="row max-width-l reverse-order">
+                        <div class="col-one-half">
+                            <img class="rounded shadow-l" src="/assets/media/content/sketch.png" srcset="/assets/media/content/sketch.png 1x, /assets/media/content/sketch@2x.png 2x" alt="Sketch">
                         </div>
-                        <div class="col-md-6">
-                            <div class="px-md-5">
-                                <hr class="line-success">
-                                <h3><?PHP HTML::print(TEXT_SECTION_OPENBLU_HEADER); ?></h3>
-                                <p><?PHP HTML::print(TEXT_SECTION_OPENBLU_DESC); ?></p>
-                                <ul class="list-unstyled mt-5">
-                                    <li class="py-2">
-                                        <div class="d-flex align-items-center">
-                                            <div class="icon icon-success mb-2">
-                                                <i class="fa fa-lock"></i>
-                                            </div>
-                                            <div class="ml-3">
-                                                <h6><?PHP HTML::print(TEXT_SECTION_OPENBLU_FEATURE_1); ?></h6>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="py-2">
-                                        <div class="d-flex align-items-center">
-                                            <div class="icon icon-success mb-2">
-                                                <i class="fa fa-cog"></i>
-                                            </div>
-                                            <div class="ml-3">
-                                                <h6><?PHP HTML::print(TEXT_SECTION_OPENBLU_FEATURE_2); ?></h6>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="py-2">
-                                        <div class="d-flex align-items-center">
-                                            <div class="icon icon-success mb-2">
-                                                <i class="fa fa-code"></i>
-                                            </div>
-                                            <div class="ml-3">
-                                                <h6><?PHP HTML::print(TEXT_SECTION_OPENBLU_FEATURE_3); ?></h6>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="py-2">
-                                        <div class="d-flex align-items-center">
-                                            <button class="btn btn-success btn-simple" onclick="window.open('https://openblu.intellivoid.net/');"><?PHP HTML::print(TEXT_SECTION_OPENBLU_OPEN_APPLICATION_BUTTON); ?></button>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
+                        <div class="col-one-half middle">
+                            <h3>Designed In Sketch</h3>
+                            <p class="paragraph">100% of this HTML template, including all modules and components have been designed in Sketch.</p>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section class="section section-lg section-safe">
-                <img src="/assets/img/path3.png" alt="path3" class="path">
-                <div class="container">
-                    <div class="row row-grid justify-content-between">
-                        <div class="col-md-6">
-                            <div class="px-md-5">
-                                <hr class="line-info">
-                                <h3><?PHP HTML::print(TEXT_SECTION_COFFEEHOUSE_HEADER); ?></h3>
-                                <p><?PHP HTML::print(TEXT_SECTION_COFFEEHOUSE_DESC); ?></p>
-                                <ul class="list-unstyled mt-5">
-                                    <li class="py-2">
-                                        <div class="d-flex align-items-center">
-                                            <div class="icon icon-info mb-2">
-                                                <i class="fa fa-robot"></i>
-                                            </div>
-                                            <div class="ml-3">
-                                                <h6><?PHP HTML::print(TEXT_SECTION_COFFEEHOUSE_FEATURE_1); ?></h6>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="py-2">
-                                        <div class="d-flex align-items-center">
-                                            <div class="icon icon-info mb-2">
-                                                <i class="fa fa-code-branch"></i>
-                                            </div>
-                                            <div class="ml-3">
-                                                <h6><?PHP HTML::print(TEXT_SECTION_COFFEEHOUSE_FEATURE_2); ?></h6>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="py-2">
-                                        <div class="d-flex align-items-center">
-                                            <div class="icon icon-info mb-2">
-                                                <i class="fa fa-dollar-sign"></i>
-                                            </div>
-                                            <div class="ml-3">
-                                                <h6><?PHP HTML::print(TEXT_SECTION_COFFEEHOUSE_FEATURE_3); ?></h6>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="py-2">
-                                        <div class="d-flex align-items-center">
-                                            <button class="btn btn-info btn-simple" onclick="window.open('https://coffeehouse.intellivoid.net/');"><?PHP HTML::print(TEXT_SECTION_COFFEEHOUSE_OPEN_COFFEEHOUSE_BUTTON); ?></button>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
+            <section class="bg-gradient-light -margin-bottom-2 overlay padding">
+                <div class="center max-width-m">
+                    <h2>Present Your Product</h2>
+                    <p class="paragraph">Opalin helps you present your business in a wide variety of ways. Display full-width images, divide content in a single or multiple columns, anything to make your product or service stand out!</p>
+                </div>
+                <div class="margin-top max-width-l">
+                    <img class="rounded shadow-l" src="/assets/media/content/opalin-dashboard.png" srcset="/assets/media/content/opalin-dashboard.png 1x, /assets/media/content/opalin-dashboard@2x.png 2x" alt="Opalin Dashboard">
+                </div>
+            </section>
+
+            <section class="bg-gradient-dark center dark padding">
+                <div class="margin-top max-width-l">
+                    <div class="margin-bottom max-width-m">
+                        <h3>Over 20,000 Paying Customers</h3>
+                        <p class="opacity-m paragraph">Thousands of the most successful companies rely on our service.</p>
+                    </div>
+                    <div class="row min-two-columns">
+                        <div class="col-one-fourth">
+                            <img src="/assets/media/content/trusted-company-dark.png" srcset="/assets/media/content/trusted-company-dark.png 1x, /assets/media/content/trusted-company-dark@2x.png 2x" alt="Trusted Company">
                         </div>
-                        <div class="col-md-5">
-                            <img src="/assets/img/coffeehouse.jpg" alt="CoffeeHouse" class="img-fluid floating">
-                            <div class="card card-stats bg-info">
-                                <div class="card-body">
-                                    <div class="justify-content-center">
-                                        <div class="numbers">
-                                            <p class="card-title">1M+</p>
-                                            <p class="card-category text-white"><?PHP HTML::print(TEXT_SECTION_COFFEEHOUSE_CHATS); ?></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card card-stats bg-primary">
-                                <div class="card-body">
-                                    <div class="justify-content-center">
-                                        <div class="numbers">
-                                            <p class="card-title">100+</p>
-                                            <p class="card-category text-white"><?PHP HTML::print(TEXT_SECTION_COFFEEHOUSE_PROJECTS); ?></p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="col-one-fourth">
+                            <img src="/assets/media/content/trusted-company-dark.png" srcset="/assets/media/content/trusted-company-dark.png 1x, /assets/media/content/trusted-company-dark@2x.png 2x" alt="Trusted Company">
+                        </div>
+                        <div class="col-one-fourth">
+                            <img src="/assets/media/content/trusted-company-dark.png" srcset="/assets/media/content/trusted-company-dark.png 1x, /assets/media/content/trusted-company-dark@2x.png 2x" alt="Trusted Company">
+                        </div>
+                        <div class="col-one-fourth">
+                            <img src="/assets/media/content/trusted-company-dark.png" srcset="/assets/media/content/trusted-company-dark.png 1x, /assets/media/content/trusted-company-dark@2x.png 2x" alt="Trusted Company">
+                        </div>
+                    </div>
+                    <img class="margin-top rounded shadow-l" src="/assets/media/content/customers.jpg" srcset="/assets/media/content/customers.jpg 1x, /assets/media/content/customers@2x.jpg 2x" alt="Customers">
+                </div>
+            </section>
+
+            <section class="padding">
+                <div class="max-width-l">
+                    <div class="center">
+                        <h2>Timeline</h2>
+                        <p class="paragraph">The best stories are told from start to finish, that's why we keep track of history.</p>
+                    </div>
+                    <div class="row margin-top timeline">
+                        <div class="col-one-fourth">
+                            <h5>Research</h5>
+                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                        </div>
+                        <div class="col-one-fourth">
+                            <h5>Ideation</h5>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur mollit.</p>
+                        </div>
+                        <div class="col-one-fourth">
+                            <h5>Development</h5>
+                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        </div>
+                        <div class="col-one-fourth">
+                            <h5>Launch</h5>
+                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="section section-lg">
-                <section class="section">
-                    <div class="container">
-                        <div class="row row-grid justify-content-between">
-                            <div class="col-md-6">
-                                <div class="pl-md-5">
-                                    <h1><?PHP HTML::print(TEXT_SECTION_NETLENIUM_HEADER); ?></h1>
-                                    <p><?PHP HTML::print(TEXT_SECTION_NETLENIUM_DESC_1); ?></p>
-                                    <br/>
-                                    <p><?PHP HTML::print(TEXT_SECTION_NETLENIUM_DESC_2); ?></p>
-                                    <br/>
-                                    <button class="btn btn-primary btn-simple mb-4"><?PHP HTML::print(TEXT_SECTION_NETLENIUM_BUTTON) ?></button>
-                                </div>
-                            </div>
-                            <div class="col-md-5">
-                                <img src="/assets/img/netlenium.jpg" alt="Netlenium Framework" class="img-fluid floating">
-                            </div>
 
+            <section class="bg-light center">
+                <div class="row no-gutter">
+                    <div class="col-one-half middle padding padding-bottom padding-top">
+                        <div class="max-width-m">
+                            <p class="paragraph">Danielle Mayer, business owner, says:</p>
+                            <h3>"Support is fantastic. Nothing but great results!"</h3>
                         </div>
                     </div>
-                </section>
+                    <div class="col-one-half bg-image-03 padding-bottom padding-top"></div>
+                </div>
             </section>
-            <?PHP HTML::importSection('landing_footer'); ?>
-        </div>
-        <?PHP HTML::importSection('landing_javascript'); ?>
+
+            <section class="bg-gradient-light padding">
+                <div class="center max-width-l">
+                    <h2>5-Minute Setup</h2>
+                    <p class="paragraph">At vero eos et accusamus et iusto odio dignissimos ducimus.</p>
+                </div>
+                <div class="row margin-top max-width-l">
+                    <div class="col-one-fourth card card-content">
+                        <p class="muted">Step 1</p>
+                        <h4>Download</h4>
+                        <p class="paragraph">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class="col-one-fourth card card-content">
+                        <p class="muted">Step 2</p>
+                        <h4>Customize</h4>
+                        <p class="paragraph">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur mollit.</p>
+                    </div>
+                    <div class="col-one-fourth card card-content">
+                        <p class="muted">Step 3</p>
+                        <h4>Upload</h4>
+                        <p class="paragraph">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="col-one-fourth card card-content dark">
+                        <p class="muted">Step 4</p>
+                        <h4>Done!</h4>
+                        <p class="paragraph">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                    </div>
+                </div>
+                <div class="center margin-top max-width-l">
+                    <span class="muted">If you need any help, make sure to </span><a href="<?PHP \DynamicalWeb\DynamicalWeb::getRoute("signup", [], true); ?>">book a demo</a><span class="muted">.</span>
+                </div>
+            </section>
+
+        </main>
+
+        <?PHP HTML::importSection("footer"); ?>
+        <?PHP HTML::importSection("js_scripts"); ?>
+
     </body>
 </html>
+
