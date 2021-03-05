@@ -1,11 +1,12 @@
 <?PHP
     use DynamicalWeb\HTML;
+
+    define("THEME_COLOR", "#100e22");
 ?>
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Opalin HTML Template</title>
-        <meta name="description" content="A minimal and responsive HTML5 landing page built on lightweight, clean and customizable code.">
+        <title>Intellivoid Technologies</title>
         <?PHP HTML::importSection("header"); ?>
     </head>
     <body class="page page-home preload">
@@ -17,33 +18,52 @@
                     <div class="row max-width-l">
                         <div class="col-one-half middle">
                             <div>
-                                <h1 class="hero">Opalin HTML Template</h1>
-                                <p class="lead">A minimal and responsive HTML5 landing page built on lightweight, clean and customizable code.</p>
-                                <a href="<?PHP \DynamicalWeb\DynamicalWeb::getRoute("signup", [], true); ?>" class="button button-primary space-top" role="button">Get Started</a>
+                                <h1 class="hero">Intellivoid Technologies</h1>
+                                <?PHP
+                                    $leads = [
+                                        "Software & Services for consumers and businesses",
+                                        "No bullshit software, pure innovation",
+                                        "We lecture NodeJS developers for destroying the web",
+                                        "We reinvent the wheel even for the most trivial stuff",
+                                        "This website is running of our own solutions",
+                                        "Sponsored by LearnToProgramCorrectly4JavascriptDevelopers",
+                                        "PHP > Python > NodeJS"
+                                    ];
+                                    $button_text = [
+                                        "Stalk our families",
+                                        "Learn more about us",
+                                        "Find out where we live"
+                                    ];
+                                ?>
+                                <p class="lead"><?PHP HTML::print($leads[array_rand($leads)]); ?></p>
+
+                                <a href="<?PHP \DynamicalWeb\DynamicalWeb::getRoute("about", [], true); ?>" class="button button-primary space-top header_btn" role="button"><?PHP HTML::print($button_text[array_rand($button_text)]); ?></a>
                             </div>
                         </div>
                         <div class="col-one-half middle">
-                            <img src="/assets/media/content/hero-illustration.png" srcset="/assets/media/content/hero-illustration.png 1x, /assets/media/content/hero-illustration@2x.png 2x" alt="Hero Illustration">
+                            <img src="/assets/media/landing_ill.svg" alt="Visionary">
                         </div>
                     </div>
                 </div>
                 <div class="padding">
                     <div class="row margin-bottom max-width-l">
                         <div class="col-one-half middle">
-                            <h3>Custom Framework</h3>
-                            <p class="paragraph">Everything is neatly organized in Sass and has been heavily focused on performances.</p>
+                            <h3>Intellivoid Accounts</h3>
+                            <p class="paragraph">Second generation authentication solution, privacy focused and allows users to take control over what data they share with the Apps and services they login with</p>
+                            <a href="https://accounts.intellivoid.net" class="button button-primary space-top" target="_blank" role="button">Open Intellivoid Accounts</a>
                         </div>
                         <div class="col-one-half">
-                            <img class="rounded shadow-l" src="/assets/media/content/editor.png" srcset="/assets/media/content/editor.png 1x, /assets/media/content/editor@2x.png 2x" alt="Editor">
+                            <img class="rounded shadow-l" src="/assets/media/intellivoid_accounts.webp" alt="Intellivoid Accounts">
                         </div>
                     </div>
                     <div class="row max-width-l reverse-order">
                         <div class="col-one-half">
-                            <img class="rounded shadow-l" src="/assets/media/content/sketch.png" srcset="/assets/media/content/sketch.png 1x, /assets/media/content/sketch@2x.png 2x" alt="Sketch">
+                            <img class="rounded shadow-l" src="/assets/media/coffeehouse.webp" alt="CoffeeHouse">
                         </div>
                         <div class="col-one-half middle">
-                            <h3>Designed In Sketch</h3>
-                            <p class="paragraph">100% of this HTML template, including all modules and components have been designed in Sketch.</p>
+                            <h3>CoffeeHouse</h3>
+                            <p class="paragraph">A Machine Learning & Artificial Intelligence engine written entirely from scratch, no Tensorflow, no Python. Provides features such as Lydia a machine learning chat bot, Natural Language Processing tools and Image Classification Tools</p>
+                            <a href="https://coffeehouse.intellivoid.net" class="button button-primary space-top" target="_blank" role="button">Open CoffeeHouse</a>
                         </div>
                     </div>
                 </div>
@@ -51,114 +71,56 @@
 
             <section class="bg-gradient-light -margin-bottom-2 overlay padding">
                 <div class="center max-width-m">
-                    <h2>Present Your Product</h2>
-                    <p class="paragraph">Opalin helps you present your business in a wide variety of ways. Display full-width images, divide content in a single or multiple columns, anything to make your product or service stand out!</p>
+                    <h2>What is Intellivoid</h2>
+                    <p class="paragraph">We're a small group of talented people that strive to create innovating software & services often from the ground up instead of following a trend or copy-pasting open source projects and calling it our own.</p>
                 </div>
                 <div class="margin-top max-width-l">
-                    <img class="rounded shadow-l" src="/assets/media/content/opalin-dashboard.png" srcset="/assets/media/content/opalin-dashboard.png 1x, /assets/media/content/opalin-dashboard@2x.png 2x" alt="Opalin Dashboard">
+                    <img class="rounded shadow-l" src="/assets/media/todo.png" alt="Todo Manager">
                 </div>
             </section>
 
             <section class="bg-gradient-dark center dark padding">
                 <div class="margin-top max-width-l">
                     <div class="margin-bottom max-width-m">
-                        <h3>Over 20,000 Paying Customers</h3>
-                        <p class="opacity-m paragraph">Thousands of the most successful companies rely on our service.</p>
+                        <h3>Over 4.6 million users</h3>
+                        <p class="opacity-m paragraph">More than 4.6 million users use our software one way or another, either it's by bots or our API services.</p>
                     </div>
-                    <div class="row min-two-columns">
-                        <div class="col-one-fourth">
-                            <img src="/assets/media/content/trusted-company-dark.png" srcset="/assets/media/content/trusted-company-dark.png 1x, /assets/media/content/trusted-company-dark@2x.png 2x" alt="Trusted Company">
-                        </div>
-                        <div class="col-one-fourth">
-                            <img src="/assets/media/content/trusted-company-dark.png" srcset="/assets/media/content/trusted-company-dark.png 1x, /assets/media/content/trusted-company-dark@2x.png 2x" alt="Trusted Company">
-                        </div>
-                        <div class="col-one-fourth">
-                            <img src="/assets/media/content/trusted-company-dark.png" srcset="/assets/media/content/trusted-company-dark.png 1x, /assets/media/content/trusted-company-dark@2x.png 2x" alt="Trusted Company">
-                        </div>
-                        <div class="col-one-fourth">
-                            <img src="/assets/media/content/trusted-company-dark.png" srcset="/assets/media/content/trusted-company-dark.png 1x, /assets/media/content/trusted-company-dark@2x.png 2x" alt="Trusted Company">
-                        </div>
-                    </div>
-                    <img class="margin-top rounded shadow-l" src="/assets/media/content/customers.jpg" srcset="/assets/media/content/customers.jpg 1x, /assets/media/content/customers@2x.jpg 2x" alt="Customers">
                 </div>
             </section>
 
             <section class="padding">
                 <div class="max-width-l">
                     <div class="center">
-                        <h2>Timeline</h2>
-                        <p class="paragraph">The best stories are told from start to finish, that's why we keep track of history.</p>
+                        <h2>How we started</h2>
+                        <p class="paragraph">Every great story has a beginning, this one doesn't have an end yet.</p>
                     </div>
                     <div class="row margin-top timeline">
-                        <div class="col-one-fourth">
-                            <h5>Research</h5>
-                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                        <div class="col-one-fifth">
+                            <h5>2017</h5>
+                            <p>Started building the infrastructure of what Intellivoid will become</p>
                         </div>
-                        <div class="col-one-fourth">
-                            <h5>Ideation</h5>
-                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur mollit.</p>
+                        <div class="col-one-fifth">
+                            <h5>2018</h5>
+                            <p>First launch of OpenBlu which lasted for 4-6 months</p>
                         </div>
-                        <div class="col-one-fourth">
-                            <h5>Development</h5>
-                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <div class="col-one-fifth">
+                            <h5>2019</h5>
+                            <p>CoffeeHouse, OpenBlu and Intellivoid Accounts becomes live, LydiaChatBot becomes a popular bot on Telegram</p>
                         </div>
-                        <div class="col-one-fourth">
-                            <h5>Launch</h5>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+                        <div class="col-one-fifth">
+                            <h5>2020</h5>
+                            <p>Intellivoid Accounts 2.0 becomes live, SpamProtectionBot gets released on Telegram and reaches over 1 million active by the end of 3 months</p>
+                        </div>
+                        <div class="col-one-fifth">
+                            <h5>2021</h5>
+                            <p>Updated CoffeeHouse and currently working on bigger projects</p>
                         </div>
                     </div>
                 </div>
             </section>
-
-            <section class="bg-light center">
-                <div class="row no-gutter">
-                    <div class="col-one-half middle padding padding-bottom padding-top">
-                        <div class="max-width-m">
-                            <p class="paragraph">Danielle Mayer, business owner, says:</p>
-                            <h3>"Support is fantastic. Nothing but great results!"</h3>
-                        </div>
-                    </div>
-                    <div class="col-one-half bg-image-03 padding-bottom padding-top"></div>
-                </div>
-            </section>
-
-            <section class="bg-gradient-light padding">
-                <div class="center max-width-l">
-                    <h2>5-Minute Setup</h2>
-                    <p class="paragraph">At vero eos et accusamus et iusto odio dignissimos ducimus.</p>
-                </div>
-                <div class="row margin-top max-width-l">
-                    <div class="col-one-fourth card card-content">
-                        <p class="muted">Step 1</p>
-                        <h4>Download</h4>
-                        <p class="paragraph">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                    <div class="col-one-fourth card card-content">
-                        <p class="muted">Step 2</p>
-                        <h4>Customize</h4>
-                        <p class="paragraph">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur mollit.</p>
-                    </div>
-                    <div class="col-one-fourth card card-content">
-                        <p class="muted">Step 3</p>
-                        <h4>Upload</h4>
-                        <p class="paragraph">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                    <div class="col-one-fourth card card-content dark">
-                        <p class="muted">Step 4</p>
-                        <h4>Done!</h4>
-                        <p class="paragraph">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-                    </div>
-                </div>
-                <div class="center margin-top max-width-l">
-                    <span class="muted">If you need any help, make sure to </span><a href="<?PHP \DynamicalWeb\DynamicalWeb::getRoute("signup", [], true); ?>">book a demo</a><span class="muted">.</span>
-                </div>
-            </section>
-
         </main>
-
         <?PHP HTML::importSection("footer"); ?>
         <?PHP HTML::importSection("js_scripts"); ?>
-
     </body>
 </html>
 

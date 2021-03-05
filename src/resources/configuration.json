@@ -7,17 +7,14 @@
         "compression": {
             "compress_html": true,
             "compress_javascript": true,
-            "compress_css": true
+            "compress_css": false
         },
         "favicon": "/assets/favicon/favicon.ico"
     },
     "router": [
-        {"method": ["GET"], "path": "/about", "page": "about", "params": []},
-        {"method": ["GET"], "path": "/forgot_password", "page": "forgot_password", "params": []},
         {"method": ["GET"], "path": "/", "page": "index", "params": []},
-        {"method": ["GET"], "path": "/login", "page": "login", "params": []},
-        {"method": ["GET"], "path": "/pricing", "page": "pricing", "params": []},
-        {"method": ["GET"], "path": "/signup", "page": "signup", "params": []}
+        {"method": ["GET"], "path": "/about", "page": "about", "params": []},
+        {"method": ["GET"], "path": "/team", "page": "team", "params": []}
     ],
     "libraries": {},
     "runtime_scripts": {

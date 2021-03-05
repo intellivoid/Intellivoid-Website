@@ -1,0 +1,98 @@
+{
+  "staff": [
+    {
+      "name": "Netkas",
+      "title": "Founder",
+      "intellivoid_account_public_id": "e7fb53bb52219fdae7d5ba0a78b87ad361f008d90f40688baf3b76a06f5add59a8023d3d7b96d478",
+      "description": "The founder of Intellivoid, main software developer behind the majority of Intellivoid's services and software",
+      "years_present": "2017-Present",
+
+      "telegram": "https://t.me/Netkas",
+      "twitter": "https://twitter.com/narrakas",
+      "github": "https://github.com/netkas",
+      "linkedin": "https://linkedin.com/in/netkas"
+    },
+    {
+      "name": "Kasper Medvedkov",
+      "title": "Co-Founder",
+      "intellivoid_account_public_id": "410835cda06076145ed59cc8ee16a678adb3e9975058d03fce2e631ffc8fa27bf527f11414517f58",
+      "description": "The second main software developer and system administrator for Intellivoid's server infrastructure",
+      "years_present": "2017-Present",
+
+      "website": "https://antiengineer.com",
+      "github": "https://github.com/AntiEngineer"
+    },
+    {
+      "name": "Justin Crawford",
+      "title": "Software Engineer/Software Developer",
+      "intellivoid_account_public_id": "701c442119e97851e330ddb05b1c47fb926ee6d7e4756063d5b667fa9c60e56adb4023060ded9651",
+      "description": "Developing software and ensuring it runs smoothly",
+      "years_present": "2020-Present"
+    },
+    {
+      "name": "Zeng Xia",
+      "title": "Trust & Safety Advisor",
+      "intellivoid_account_public_id": "e5e86fd8bc717d30010872b7b70b8eaecbd1e28919f439384499126d48f5889ff0b50cb9e10b856d",
+      "description": "Trust and safety advisor for Intellivoid",
+      "years_present": "2019-Present",
+
+      "website": "https://stacksmash.net"
+    },
+    {
+      "name": "Aleksander Lorenz",
+      "title": "Head of Customer Support",
+      "intellivoid_account_public_id": "e5e86fd8bc717d30010872b7b70b8eaecbd1e28919f439384499126d48f5889ff0b50cb9e10b856d",
+      "description": "Provide customer support to anyone around using the services",
+      "years_present": "2020-Present"
+    },
+    {
+      "name": "Davide Galilei",
+      "title": "Designer",
+      "intellivoid_account_public_id": "b5330d1cdec542c56845d453ef3b2a88371c690dbaf4fe52dadb81bd8b630db2dc52158285c44bf6",
+      "description": "Designs and creates logos & banners",
+      "years_present": "2020-Present",
+
+      "telegram": "https://t.me/DavideGalileiPortfolio",
+      "github": "https://github.com/DavideGalilei"
+    },
+    {
+      "name": "Constantine M. (Nodestorm)",
+      "title": "Software Developer",
+      "intellivoid_account_public_id": "3d5e068d2bc40e6c6b89aecfb8e90b0ca92ac9ec0ca82429fb2431339b94e1a207edebab5b4f54bc",
+      "description": "Develops software for Intellivoid",
+      "years_present": "2017-Present"
+    },
+    {
+      "name": "Saber",
+      "title": "Community Manager / Support Agent / Moderator",
+      "intellivoid_account_public_id": "8ed00230b7cb683de163f7ac9bb581bcbe45b25e80ca05f00d2b3c055c54cb14a03f222c0e84c98b",
+      "description": "Managing the community and support while answering questions and assisting where it's needed",
+      "years_present": "2021-Present",
+
+      "telegram": "https://t.me/TheGrandSaber",
+      "twitter": "https://twitter.com/OGArtoria",
+      "discord": "https://discord.gg/wsR7Es2ZtC"
+    }
+  ],
+  "special_thanks": [
+    {
+      "name": "Katerina Limpitsouni",
+      "title": "Creator of @unDraw_co • Illustrator",
+      "intellivoid_account_public_id": "727f43ea3f8924a1aa8c5067e57fa4410c462cd6d6f545633140bea23f7263724f4aa8ce163da166",
+      "description": "Created the illustrations found on undraw.co which is used in many of our web applications",
+
+      "twitter": "https://twitter.com/NinaLimpi",
+      "website": "https://undraw.co"
+    },
+    {
+      "name": "Sayan Biswas",
+      "title": "Open Source Contributor",
+      "intellivoid_account_public_id": "d76b265026a65bb7b15ae5ecf839fd57b2c63e6ac2a9cc746c85d82ac7d86a13a50c0cb96cf80dde",
+      "description": "Helps contribute to our open source software",
+
+      "github": "http://github.com/Dank-del",
+      "twitter": "https://twitter.com/TheDankDel",
+      "telegram": "https://t.me/dank_as_fuck"
+    }
+  ]
+}

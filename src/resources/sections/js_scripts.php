@@ -1,1 +1,1 @@
-<?PHP \DynamicalWeb\CSS::importStyle("main"); ?>
+<?PHP \DynamicalWeb\JavaScript::importScript("main"); ?>
