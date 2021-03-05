@@ -814,103 +814,103 @@ p:last-child {
     background:rgba(17,15,36,.7)
 }
 .overlay-shape-01:before {
-    background:url(../../assets/media/bg/shape-01.svg)
+    background:url(/assets/media/bg/shape-01.svg)
 }
 .dark.overlay-shape-01:before {
-    background:url(../../assets/media/bg/shape-dark-01.svg)
+    background:url(/assets/media/bg/shape-dark-01.svg)
 }
 .overlay-shape-02:before {
-    background:url(../../assets/media/bg/shape-02.svg)
+    background:url(/assets/media/bg/shape-02.svg)
 }
 .dark.overlay-shape-02:before {
-    background:url(../../assets/media/bg/shape-dark-02.svg)
+    background:url(/assets/media/bg/shape-dark-02.svg)
 }
 .overlay-shape-03:before {
-    background:url(../../assets/media/bg/shape-03.svg)
+    background:url(/assets/media/bg/shape-03.svg)
 }
 .dark.overlay-shape-03:before {
-    background:url(../../assets/media/bg/shape-dark-03.svg)
+    background:url(/assets/media/bg/shape-dark-03.svg)
 }
 .overlay-shape-04:before {
-    background:url(../../assets/media/bg/shape-04.svg)
+    background:url(/assets/media/bg/shape-04.svg)
 }
 .dark.overlay-shape-04:before {
-    background:url(../../assets/media/bg/shape-dark-04.svg)
+    background:url(/assets/media/bg/shape-dark-04.svg)
 }
 .overlay-shape-05:before {
-    background:url(../../assets/media/bg/shape-05.svg)
+    background:url(/assets/media/bg/shape-05.svg)
 }
 .dark.overlay-shape-05:before {
-    background:url(../../assets/media/bg/shape-dark-05.svg)
+    background:url(/assets/media/bg/shape-dark-05.svg)
 }
 .overlay-shape-06:before {
-    background:url(../../assets/media/bg/shape-06.svg)
+    background:url(/assets/media/bg/shape-06.svg)
 }
 .dark.overlay-shape-06:before {
-    background:url(../../assets/media/bg/shape-dark-06.svg)
+    background:url(/assets/media/bg/shape-dark-06.svg)
 }
 .bg-image-01:after {
-    background:url(../../assets/media/bg/image-01@2x.jpg)
+    background:url(/assets/media/bg/image-01@2x.jpg)
 }
 @media only screen and (max-width:479px) {
     .bg-image-01:after {
-        background:url(../../assets/media/bg/image-01.jpg)
+        background:url(/assets/media/bg/image-01.jpg)
     }
 }
 .bg-image-02:after {
-    background:url(../../assets/media/bg/image-02@2x.jpg)
+    background:url(/assets/media/bg/image-02@2x.jpg)
 }
 @media only screen and (max-width:479px) {
     .bg-image-02:after {
-        background:url(../../assets/media/bg/image-02.jpg)
+        background:url(/assets/media/bg/image-02.jpg)
     }
 }
 .bg-image-03:after {
-    background:url(../../assets/media/bg/image-03@2x.jpg)
+    background:url(/assets/media/bg/image-03@2x.jpg)
 }
 @media only screen and (max-width:479px) {
     .bg-image-03:after {
-        background:url(../../assets/media/bg/image-03.jpg)
+        background:url(/assets/media/bg/image-03.jpg)
     }
 }
 .bg-image-04:after {
-    background:url(../../assets/media/bg/image-04@2x.jpg)
+    background:url(/assets/media/bg/image-04@2x.jpg)
 }
 @media only screen and (max-width:479px) {
     .bg-image-04:after {
-        background:url(../../assets/media/bg/image-04.jpg)
+        background:url(/assets/media/bg/image-04.jpg)
     }
 }
 .bg-image-05:after {
-    background:url(../../assets/media/bg/image-05@2x.jpg)
+    background:url(/assets/media/bg/image-05@2x.jpg)
 }
 @media only screen and (max-width:479px) {
     .bg-image-05:after {
-        background:url(../../assets/media/bg/image-05.jpg)
+        background:url(/assets/media/bg/image-05.jpg)
     }
 }
 .bg-image-06:after {
-    background:url(../../assets/media/bg/image-06@2x.jpg)
+    background:url(/assets/media/bg/image-06@2x.jpg)
 }
 @media only screen and (max-width:479px) {
     .bg-image-06:after {
-        background:url(../../assets/media/bg/image-06.jpg)
+        background:url(/assets/media/bg/image-06.jpg)
     }
 }
 .bg-image-07:after {
-    background:url(../../assets/media/bg/image-07@2x.jpg)
+    background:url(/assets/media/bg/image-07@2x.jpg)
 }
 @media only screen and (max-width:479px) {
     .bg-image-07:after {
-        background:url(../../assets/media/bg/image-07.jpg)
+        background:url(/assets/media/bg/image-07.jpg)
     }
 }
 .bg-image-08:after {
-    background:url(../../assets/media/bg/image-08@2x.jpg)
+    background:url(/assets/media/bg/image-08@2x.jpg)
 }
 @media only screen and (max-width:479px) {
     .bg-image-08:after {
-        background:url(../../assets/media/bg/image-08.jpg)
+        background:url(/assets/media/bg/image-08.jpg)
     }
 }
 .bg-image-hero:after {
@@ -922,7 +922,7 @@ p:last-child {
     background:linear-gradient(#110f24 0,#05050b 100%)
 }
 .overlay-hero:before {
-    background:url(../../assets/media/bg/shape-hero.svg)
+    background:url(/assets/media/bg/shape-hero.svg)
 }
 .divider {
     border-bottom:1px solid #ececee;

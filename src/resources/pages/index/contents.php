@@ -75,7 +75,7 @@
                     <p class="paragraph">We're a small group of talented people that strive to create innovating software & services often from the ground up instead of following a trend or copy-pasting open source projects and calling it our own.</p>
                 </div>
                 <div class="margin-top max-width-l">
-                    <img class="rounded shadow-l" src="/assets/media/todo.png" alt="Todo Manager">
+                    <img class="rounded shadow-l" src="/assets/media/todo.webp" alt="Todo Manager">
                 </div>
             </section>
 
