@@ -34,7 +34,7 @@
                         <a href="https://docs.intellivoid.net/">Documentation</a>
                     </li>
                     <li>
-                        <a href="https://t.me/IntellivoidSupprt">Live Support</a>
+                        <a href="https://t.me/IntellivoidSupport">Live Support</a>
                     </li>
                     <li>
                         <a href="https://github.com/Intellivoid">GitHub</a>
