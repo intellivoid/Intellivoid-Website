@@ -1,28 +1,40 @@
 {
+    "name": "Intellivoid Website",
+    "version": "3.0.0.0",
+    "author": "Zi Xing Narrakas",
+    "organization": "Intellivoid Technologies",
     "configuration": {
-        "primary_language": "en",
-        "debugging_mode": false,
-        "enable_ppm": true,
-        "buffer_output": true,
-        "compression": {
-            "compress_html": true,
-            "compress_javascript": true,
-            "compress_css": false
+        "root_path": "/",
+        "localization": {
+            "enabled": false,
+            "primary_localization": "en",
+            "auto_detect_preference": true,
+            "localizations": {}
         },
-        "favicon": "/assets/favicon/favicon.ico"
+        "sessions": {
+            "enabled": true,
+            "configuration_name": "Intellivoid Accounts"
+        },
+        "favicon": null,
+        "localization_enabled": true,
+        "debugging_mode": true,
+        "framework_signature": true,
+        "application_signature": true,
+        "security_headers": true,
+        "enable_khm": true,
+        "firewall_deny": [],
+        "headers": {}
     },
-    "router": [
-        {"method": ["GET"], "path": "/", "page": "index", "params": []},
-        {"method": ["GET"], "path": "/about", "page": "about", "params": []},
-        {"method": ["GET"], "path": "/team", "page": "team", "params": []}
+    "runtime_scripts": [
+        {"event": "pre_page_load", "script": "runtime_scripts/auth.check.dyn"},
+        {"event": "pre_page_load", "script": "runtime_scripts/check.host.dyn"}
     ],
-    "libraries": {},
-    "runtime_scripts": {
-        "initialize": [],
-        "on_page_load": [],
-        "page_loaded": [],
-        "after_request": [],
-        "on_request": [],
-        "on_import": []
-    }
+    "web_assets": [
+        {"type": "ppm", "name": "primary_assets", "source": "net.intellivoid.website_template==latest", "path": "assets"}
+    ],
+    "router": [
+        {"method": ["GET"], "path": "", "page": "index", "params": []},
+        {"method": ["GET"], "path": "about", "page": "about", "params": []},
+        {"method": ["GET"], "path": "team", "page": "team", "params": []}
+    ]
 }
