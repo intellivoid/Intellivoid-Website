@@ -11,10 +11,6 @@
             "auto_detect_preference": true,
             "localizations": {}
         },
-        "sessions": {
-            "enabled": true,
-            "configuration_name": "Intellivoid Accounts"
-        },
         "favicon": null,
         "localization_enabled": true,
         "debugging_mode": true,
@@ -25,10 +21,7 @@
         "firewall_deny": [],
         "headers": {}
     },
-    "runtime_scripts": [
-        {"event": "pre_page_load", "script": "runtime_scripts/auth.check.dyn"},
-        {"event": "pre_page_load", "script": "runtime_scripts/check.host.dyn"}
-    ],
+    "runtime_scripts": [],
     "web_assets": [
         {"type": "ppm", "name": "primary_assets", "source": "net.intellivoid.website_template==latest", "path": "assets"}
     ],

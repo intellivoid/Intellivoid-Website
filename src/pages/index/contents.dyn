@@ -37,7 +37,7 @@
                                 ?>
                                 <p class="lead"><?PHP HTML::print($leads[array_rand($leads)]); ?></p>
 
-                                <a href="<?PHP \DynamicalWeb\DynamicalWeb::getRoute("about", [], true); ?>" class="button button-primary space-top header_btn" role="button"><?PHP HTML::print($button_text[array_rand($button_text)]); ?></a>
+                                <a href="<?PHP \DynamicalWeb\DynamicalWeb::printRoute("about"); ?>" class="button button-primary space-top header_btn" role="button"><?PHP HTML::print($button_text[array_rand($button_text)]); ?></a>
                             </div>
                         </div>
                         <div class="col-one-half middle">

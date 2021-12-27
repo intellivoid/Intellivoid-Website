@@ -1,5 +1,5 @@
 <nav>
-    <a href="<?PHP \DynamicalWeb\DynamicalWeb::getRoute("index", [], true); ?>" class="logo" rel="home">
+    <a href="<?PHP \DynamicalWeb\DynamicalWeb::printRoute("index"); ?>" class="logo" rel="home">
         <?PHP
             $NavigationMode = "light";
             if(defined("NAV_MODE"))
@@ -20,13 +20,13 @@
     <div class="nav-toggle"></div>
     <ul class="inline">
         <li>
-            <a href="<?PHP \DynamicalWeb\DynamicalWeb::getRoute("index", [], true); ?>" class="active">Home</a>
+            <a href="<?PHP \DynamicalWeb\DynamicalWeb::printRoute("index"); ?>" class="active">Home</a>
         </li>
         <li>
-            <a href="<?PHP \DynamicalWeb\DynamicalWeb::getRoute("about", [], true); ?>">About</a>
+            <a href="<?PHP \DynamicalWeb\DynamicalWeb::printRoute("about"); ?>">About</a>
         </li>
         <li>
-            <a href="<?PHP \DynamicalWeb\DynamicalWeb::getRoute("team", [], true); ?>">Team</a>
+            <a href="<?PHP \DynamicalWeb\DynamicalWeb::printRoute("team"); ?>">Team</a>
         </li>
         <li>
             <a href="https://github.com/intellivoid">GitHub</a>

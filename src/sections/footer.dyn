@@ -20,10 +20,10 @@
                 <h6>Info</h6>
                 <ul class="blank">
                     <li>
-                        <a href="<?PHP \DynamicalWeb\DynamicalWeb::getRoute("about", [], true); ?>">Who we are</a>
+                        <a href="<?PHP \DynamicalWeb\DynamicalWeb::printRoute("about"); ?>">Who we are</a>
                     </li>
                     <li>
-                        <a href="<?PHP \DynamicalWeb\DynamicalWeb::getRoute("team", [], true); ?>">Team</a>
+                        <a href="<?PHP \DynamicalWeb\DynamicalWeb::printRoute("team"); ?>">Team</a>
                     </li>
                 </ul>
             </div>

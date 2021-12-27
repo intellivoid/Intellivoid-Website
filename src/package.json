@@ -15,12 +15,6 @@
                 "required": true
             },
             {
-                "package": "net.intellivoid.support",
-                "version": "latest",
-                "source": "default@github/intellivoid/Support",
-                "required": true
-            },
-            {
                 "package": "net.intellivoid.website_template",
                 "version": "latest",
                 "source": "default@github/intellivoid/Intellivoid-Website-Template",
@@ -34,140 +28,7 @@
             "pre_installation": []
         }
     },
-    "components": [
-        {
-            "required": true,
-            "file": "css/generic.css.php"
-        },
-        {
-            "required": true,
-            "file": "css/bootstrap.css.php"
-        },
-        {
-            "required": true,
-            "file": "css/animate.css.php"
-        },
-        {
-            "required": true,
-            "file": "css/main.css.php"
-        },
-        {
-            "required": true,
-            "file": "css/app.css.php"
-        },
-        {
-            "required": true,
-            "file": "sections/navigation_light.php"
-        },
-        {
-            "required": true,
-            "file": "sections/footer.php"
-        },
-        {
-            "required": true,
-            "file": "sections/navigation_dark.php"
-        },
-        {
-            "required": true,
-            "file": "sections/header.php"
-        },
-        {
-            "required": true,
-            "file": "sections/navigation.php"
-        },
-        {
-            "required": true,
-            "file": "sections/js_scripts.php"
-        },
-        {
-            "required": true,
-            "file": "javascript/main.js.php"
-        },
-        {
-            "required": true,
-            "file": "pages/team/contents.php"
-        },
-        {
-            "required": true,
-            "file": "pages/index/contents.php"
-        },
-        {
-            "required": true,
-            "file": "pages/about/contents.php"
-        },
-        {
-            "required": true,
-            "file": "DynamicalWeb/HtmlMin.php"
-        },
-        {
-            "required": true,
-            "file": "DynamicalWeb/DynamicalWeb.php"
-        },
-        {
-            "required": true,
-            "file": "DynamicalWeb/CSS.php"
-        },
-        {
-            "required": true,
-            "file": "DynamicalWeb/Response.php"
-        },
-        {
-            "required": true,
-            "file": "DynamicalWeb/Javascript.php"
-        },
-        {
-            "required": true,
-            "file": "DynamicalWeb/Utilities.php"
-        },
-        {
-            "required": true,
-            "file": "DynamicalWeb/Language.php"
-        },
-        {
-            "required": true,
-            "file": "DynamicalWeb/BufferStream.php"
-        },
-        {
-            "required": true,
-            "file": "DynamicalWeb/Router.php"
-        },
-        {
-            "required": true,
-            "file": "DynamicalWeb/Runtime.php"
-        },
-        {
-            "required": true,
-            "file": "DynamicalWeb/Request.php"
-        },
-        {
-            "required": true,
-            "file": "DynamicalWeb/Client.php"
-        },
-        {
-            "required": true,
-            "file": "DynamicalWeb/Actions.php"
-        },
-        {
-            "required": true,
-            "file": "DynamicalWeb/MarkdownParser.php"
-        },
-        {
-            "required": true,
-            "file": "DynamicalWeb/JSMin.php"
-        },
-        {
-            "required": true,
-            "file": "DynamicalWeb/Page.php"
-        },
-        {
-            "required": true,
-            "file": "DynamicalWeb/HTML.php"
-        },
-        {
-            "required": true,
-            "file": "runtime_scripts/maintenance.php"
-        }
-    ],
+    "components": [],
     "files": [
         "markdown/tos/es.md",
         "markdown/tos/en.md",
@@ -179,12 +40,20 @@
         "markdown/example/en.md",
         "markdown/dev_antiengineer/en.md",
         "markdown/dev_netkas/en.md",
+        "sections/footer.dyn",
+        "sections/header.dyn",
+        "sections/navigation.dyn",
+        "sections/navigation_dark.dyn",
+        "sections/js_scripts.dyn",
+        "sections/navigation_light.dyn",
         "package.json",
-        "languages/en.json.save",
         "languages/en.json",
+        "javascript/main.js.dyn",
         "pages/team/team_members.json",
-        "DynamicalWeb/dynamicalweb.json",
-        "DynamicalWeb/nojs.b64",
+        "pages/team/contents.dyn",
+        "pages/index/contents.dyn",
+        "pages/about/contents.dyn",
+        "runtime_scripts/maintenance.dyn",
         "configuration.json"
     ]
 }
